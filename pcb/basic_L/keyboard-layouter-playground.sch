@@ -1,0 +1,1282 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title "gammy split"
+Date "2020-11-14"
+Rev "both_r2"
+Comp "Kirin123"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 4050 4525 0    50   Input ~ 0
+COL1
+Text GLabel 4550 4525 0    50   Input ~ 0
+COL2
+Text GLabel 5050 4525 0    50   Input ~ 0
+COL3
+Text GLabel 5550 4525 0    50   Input ~ 0
+COL4
+Text GLabel 6050 4525 0    50   Input ~ 0
+COL5
+Wire Wire Line
+	3950 5025 4000 5025
+Wire Wire Line
+	3950 5800 4000 5800
+Wire Wire Line
+	4950 5025 5000 5025
+Wire Wire Line
+	5950 5025 6000 5025
+Wire Wire Line
+	6450 5025 6500 5025
+Wire Wire Line
+	4450 5800 4500 5800
+Wire Wire Line
+	4950 5800 5000 5800
+Wire Wire Line
+	5950 5800 6000 5800
+Wire Wire Line
+	6450 5800 6500 5800
+Wire Wire Line
+	3950 6575 4000 6575
+Wire Wire Line
+	4450 6575 4500 6575
+Wire Wire Line
+	4950 6575 5000 6575
+Wire Wire Line
+	5450 6575 5500 6575
+Wire Wire Line
+	3950 7350 4000 7350
+Wire Wire Line
+	4450 7350 4500 7350
+Wire Wire Line
+	4950 7350 5000 7350
+Wire Wire Line
+	5450 7350 5500 7350
+Wire Wire Line
+	5950 7350 6000 7350
+Wire Wire Line
+	6450 7350 6500 7350
+Wire Wire Line
+	5950 6575 6000 6575
+Wire Wire Line
+	6450 6575 6500 6575
+Wire Wire Line
+	3950 8125 4000 8125
+Wire Wire Line
+	3950 8925 4000 8925
+Wire Wire Line
+	4450 8925 4500 8925
+Wire Wire Line
+	4950 8125 5000 8125
+Wire Wire Line
+	5450 8125 5500 8125
+Wire Wire Line
+	5950 8125 6000 8125
+Wire Wire Line
+	6450 8125 6500 8125
+Wire Wire Line
+	5450 8925 5500 8925
+Wire Wire Line
+	5950 8925 6000 8925
+Wire Wire Line
+	6450 8925 6500 8925
+Wire Wire Line
+	3550 8925 3550 8125
+Connection ~ 3550 5025
+Wire Wire Line
+	3550 5025 3550 4525
+Connection ~ 3550 5800
+Wire Wire Line
+	3550 5800 3550 5025
+Connection ~ 3550 6575
+Wire Wire Line
+	3550 6575 3550 5800
+Connection ~ 3550 7350
+Wire Wire Line
+	3550 7350 3550 6575
+Connection ~ 3550 8125
+Wire Wire Line
+	3550 8125 3550 7350
+Wire Wire Line
+	4050 4525 4050 5800
+Connection ~ 4050 5800
+Wire Wire Line
+	4050 5800 4050 6575
+Connection ~ 4050 6575
+Wire Wire Line
+	4050 6575 4050 7350
+Connection ~ 4050 7350
+Wire Wire Line
+	4050 7350 4050 8925
+Wire Wire Line
+	4550 8125 4550 7350
+Connection ~ 4550 5025
+Wire Wire Line
+	4550 5025 4550 4525
+Connection ~ 4550 5800
+Wire Wire Line
+	4550 5800 4550 5025
+Connection ~ 4550 6575
+Wire Wire Line
+	4550 6575 4550 5800
+Connection ~ 4550 7350
+Wire Wire Line
+	4550 7350 4550 6575
+Wire Wire Line
+	5050 4525 5050 5025
+Connection ~ 5050 5025
+Wire Wire Line
+	5050 5025 5050 5800
+Connection ~ 5050 5800
+Wire Wire Line
+	5050 5800 5050 6575
+Connection ~ 5050 6575
+Wire Wire Line
+	5050 6575 5050 7350
+Connection ~ 5050 7350
+Wire Wire Line
+	5050 7350 5050 8125
+Connection ~ 5050 8125
+Wire Wire Line
+	5050 8125 5050 8925
+Wire Wire Line
+	5550 5025 5550 4525
+Connection ~ 5550 6575
+Wire Wire Line
+	5550 6575 5550 5800
+Connection ~ 5550 7350
+Wire Wire Line
+	5550 7350 5550 6575
+Wire Wire Line
+	5550 8125 5550 7350
+Wire Wire Line
+	6050 4525 6050 5025
+Connection ~ 6050 5025
+Wire Wire Line
+	6050 5025 6050 5800
+Connection ~ 6050 5800
+Wire Wire Line
+	6050 5800 6050 6575
+Connection ~ 6050 6575
+Wire Wire Line
+	6050 6575 6050 7350
+Connection ~ 6050 7350
+Wire Wire Line
+	6050 7350 6050 8125
+Wire Wire Line
+	6050 8125 6050 8925
+Connection ~ 6050 8125
+Wire Wire Line
+	5550 8125 5550 8925
+Connection ~ 5550 8125
+Text GLabel 3325 5425 0    50   Input ~ 0
+row1
+Text GLabel 3325 6200 0    50   Input ~ 0
+row2
+Text GLabel 3325 6975 0    50   Input ~ 0
+row3
+Text GLabel 3325 7750 0    50   Input ~ 0
+row4
+Text GLabel 3325 8525 0    50   Input ~ 0
+row5
+Text GLabel 3325 9325 0    50   Input ~ 0
+row6
+Text GLabel 4325 2575 0    50   Input ~ 0
+row6
+Text GLabel 4325 2675 0    50   Input ~ 0
+row5
+Text GLabel 4325 2875 0    50   Input ~ 0
+row3
+Text GLabel 4325 3075 0    50   Input ~ 0
+COL0
+Text GLabel 4325 2775 0    50   Input ~ 0
+row4
+Text GLabel 4325 2975 0    50   Input ~ 0
+row2
+Text GLabel 4875 3525 3    50   Input ~ 0
+row1
+Text GLabel 5075 3525 3    50   Input ~ 0
+COL2
+Text GLabel 5275 3525 3    50   Input ~ 0
+COL4
+Text GLabel 5175 3525 3    50   Input ~ 0
+COL3
+Wire Wire Line
+	5775 2175 6225 2175
+$Comp
+L power:VCC #PWR0103
+U 1 1 5FB8495E
+P 2825 2100
+F 0 "#PWR0103" H 2825 1950 50  0001 C CNN
+F 1 "VCC" H 2840 2273 50  0000 C CNN
+F 2 "" H 2825 2100 50  0001 C CNN
+F 3 "" H 2825 2100 50  0001 C CNN
+	1    2825 2100
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 5775 2675
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 6003131C
+P 6875 2925
+F 0 "#FLG0101" H 6875 3000 50  0001 C CNN
+F 1 "PWR_FLAG" H 6875 3098 50  0000 C CNN
+F 2 "" H 6875 2925 50  0001 C CNN
+F 3 "~" H 6875 2925 50  0001 C CNN
+	1    6875 2925
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0105
+U 1 1 60080CB8
+P 6575 2925
+F 0 "#PWR0105" H 6575 2775 50  0001 C CNN
+F 1 "VCC" H 6590 3098 50  0000 C CNN
+F 2 "" H 6575 2925 50  0001 C CNN
+F 3 "" H 6575 2925 50  0001 C CNN
+	1    6575 2925
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 60082369
+P 6875 3200
+F 0 "#PWR0106" H 6875 2950 50  0001 C CNN
+F 1 "GND" H 6880 3027 50  0000 C CNN
+F 2 "" H 6875 3200 50  0001 C CNN
+F 3 "" H 6875 3200 50  0001 C CNN
+	1    6875 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6875 2925 6875 3200
+Wire Wire Line
+	6575 3200 6575 2925
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 60033579
+P 6575 3200
+F 0 "#FLG0102" H 6575 3275 50  0001 C CNN
+F 1 "PWR_FLAG" H 6575 3373 50  0000 C CNN
+F 2 "" H 6575 3200 50  0001 C CNN
+F 3 "~" H 6575 3200 50  0001 C CNN
+	1    6575 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5775 3075 5825 3075
+Wire Wire Line
+	5175 3475 5175 3525
+Wire Wire Line
+	5275 3475 5275 3525
+Wire Wire Line
+	4325 3075 4375 3075
+Wire Wire Line
+	4875 3525 4875 3475
+Wire Wire Line
+	4975 3525 4975 3475
+Wire Wire Line
+	5075 3525 5075 3475
+Wire Wire Line
+	4375 2975 4325 2975
+Wire Wire Line
+	4325 2875 4375 2875
+Wire Wire Line
+	4375 2775 4325 2775
+Wire Wire Line
+	4325 2675 4375 2675
+Text GLabel 4975 3525 3    50   Input ~ 0
+COL1
+Text GLabel 5825 3075 2    50   Input ~ 0
+COL5
+NoConn ~ 4375 1975
+Wire Wire Line
+	4325 2575 4375 2575
+NoConn ~ 5775 1975
+Text GLabel 4325 2375 0    50   Input ~ 0
+SDA1
+Wire Wire Line
+	4325 2375 4375 2375
+Text GLabel 3175 2375 0    50   Input ~ 0
+SDA1
+NoConn ~ 5775 2775
+NoConn ~ 5775 2875
+NoConn ~ 5775 2975
+$Comp
+L power:GND #PWR0113
+U 1 1 5FBDC72C
+P 6825 2175
+F 0 "#PWR0113" H 6825 1925 50  0001 C CNN
+F 1 "GND" V 6830 2047 50  0000 R CNN
+F 2 "" H 6825 2175 50  0001 C CNN
+F 3 "" H 6825 2175 50  0001 C CNN
+	1    6825 2175
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0114
+U 1 1 5FBDCBFB
+P 3275 1975
+F 0 "#PWR0114" H 3275 1725 50  0001 C CNN
+F 1 "GND" V 3280 1847 50  0000 R CNN
+F 2 "" H 3275 1975 50  0001 C CNN
+F 3 "" H 3275 1975 50  0001 C CNN
+	1    3275 1975
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0115
+U 1 1 5FC05D60
+P 5775 2275
+F 0 "#PWR0115" H 5775 2125 50  0001 C CNN
+F 1 "VCC" H 5790 2448 50  0000 C CNN
+F 2 "" H 5775 2275 50  0001 C CNN
+F 3 "" H 5775 2275 50  0001 C CNN
+	1    5775 2275
+	0    1    1    0   
+$EndComp
+Text GLabel 3550 4525 0    50   Input ~ 0
+COL0
+NoConn ~ 5775 2375
+NoConn ~ 5775 2475
+NoConn ~ 5775 2575
+Wire Wire Line
+	3225 2475 3225 1975
+Wire Wire Line
+	3175 2375 3175 2175
+NoConn ~ 4375 2175
+$Comp
+L power:GND #PWR0101
+U 1 1 602EA59A
+P 5775 2075
+F 0 "#PWR0101" H 5775 1825 50  0001 C CNN
+F 1 "GND" V 5780 1947 50  0000 R CNN
+F 2 "" H 5775 2075 50  0001 C CNN
+F 3 "" H 5775 2075 50  0001 C CNN
+	1    5775 2075
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 4375 2275
+Wire Wire Line
+	3225 2475 3375 2475
+$Comp
+L power:VCC #PWR0104
+U 1 1 5FCFA060
+P 3375 2775
+F 0 "#PWR0104" H 3375 2625 50  0001 C CNN
+F 1 "VCC" H 3390 2948 50  0000 C CNN
+F 2 "" H 3375 2775 50  0001 C CNN
+F 3 "" H 3375 2775 50  0001 C CNN
+	1    3375 2775
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3650 2075 4375 2075
+Connection ~ 3175 2175
+Wire Wire Line
+	3175 2175 3175 1975
+Wire Wire Line
+	3125 1975 3125 2100
+Wire Wire Line
+	3125 2100 2875 2100
+Wire Wire Line
+	2875 2175 2875 2100
+Connection ~ 2875 2100
+Wire Wire Line
+	2875 2100 2825 2100
+Connection ~ 3375 2475
+Wire Wire Line
+	3650 2075 3650 2475
+Wire Wire Line
+	3375 2475 3650 2475
+Connection ~ 3650 2475
+Wire Wire Line
+	3650 2475 4375 2475
+Connection ~ 5550 5800
+Connection ~ 5550 5025
+Wire Wire Line
+	5450 5800 5500 5800
+Wire Wire Line
+	5450 5025 5500 5025
+Wire Wire Line
+	5550 5800 5550 5025
+Wire Wire Line
+	3325 5425 4000 5425
+Connection ~ 4000 5425
+$Comp
+L Device:R R2
+U 1 1 5FCF9AAE
+P 3375 2625
+F 0 "R2" H 3445 2671 50  0000 L CNN
+F 1 "4.7k" H 3445 2580 50  0000 L CNN
+F 2 "gammy:R" V 3305 2625 50  0001 C CNN
+F 3 "~" H 3375 2625 50  0001 C CNN
+	1    3375 2625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5FCC1AA0
+P 3025 2175
+F 0 "R1" H 3095 2221 50  0000 L CNN
+F 1 "4.7k" H 3095 2130 50  0000 L CNN
+F 2 "gammy:R" V 2955 2175 50  0001 C CNN
+F 3 "~" H 3025 2175 50  0001 C CNN
+	1    3025 2175
+	0    1    1    0   
+$EndComp
+$Comp
+L gammy:Elite-C U1
+U 1 1 6063E458
+P 5075 2525
+F 0 "U1" H 5075 3362 60  0000 C CNN
+F 1 "Elite-C-keebio" H 5075 3256 60  0000 C CNN
+F 2 "gammy:Elite-C" V 6125 25  60  0001 C CNN
+F 3 "" V 6125 25  60  0001 C CNN
+	1    5075 2525
+	1    0    0    -1  
+$EndComp
+$Comp
+L gammy:MJ-4PP-9 J1
+U 1 1 5FBAD2C1
+P 3200 1775
+F 0 "J1" V 3278 1644 50  0000 R CNN
+F 1 "MJ-4PP-9" V 3187 1644 50  0000 R CNN
+F 2 "gammy:MJ-4PP-9" H 3475 1950 50  0001 C CNN
+F 3 "~" H 3475 1950 50  0001 C CNN
+	1    3200 1775
+	0    1    1    0   
+$EndComp
+$Comp
+L gammy:SW_RESET SW_RST1
+U 1 1 5FB3AFE1
+P 6525 2175
+F 0 "SW_RST1" H 6525 2430 50  0000 C CNN
+F 1 "SW_PUSH" H 6525 2339 50  0000 C CNN
+F 2 "gammy:ResetSW" H 6525 2175 50  0000 C CNN
+F 3 "" H 6525 2175 50  0000 C CNN
+	1    6525 2175
+	1    0    0    -1  
+$EndComp
+$Comp
+L gammy:SW_Push SW601
+U 1 1 5CA5B4B1
+P 3750 8125
+F 0 "SW601" H 3750 8410 50  0000 C CNN
+F 1 "SW_Push" H 3750 8319 50  0000 C CNN
+F 2 "gammy:SW_Cherry_MX_2.25u_Plate" H 3750 8325 50  0001 C CNN
+F 3 "" H 3750 8325 50  0001 C CNN
+	1    3750 8125
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D601
+U 1 1 5CA5B4AB
+P 4000 8325
+F 0 "D601" H 4000 8590 50  0000 C CNN
+F 1 "DIODE" H 4000 8499 50  0000 C CNN
+F 2 "gammy:D3_TH_SMD_Horizontal" H 4000 8325 50  0001 C CNN
+F 3 "~" H 4000 8325 50  0001 C CNN
+	1    4000 8325
+	0    1    1    0   
+$EndComp
+$Comp
+L gammy:SW_Push SW304
+U 1 1 5CA5AF1D
+P 6250 8925
+F 0 "SW304" H 6250 9210 50  0000 C CNN
+F 1 "SW_Push" H 6250 9119 50  0000 C CNN
+F 2 "gammy:SW_Cherry_MX_1.75u_Plate" H 6250 9125 50  0001 C CNN
+F 3 "" H 6250 9125 50  0001 C CNN
+	1    6250 8925
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D304
+U 1 1 5CA5AF17
+P 6500 9125
+F 0 "D304" H 6500 9390 50  0000 C CNN
+F 1 "DIODE" H 6500 9299 50  0000 C CNN
+F 2 "gammy:D3_TH_SMD_Horizontal" H 6500 9125 50  0001 C CNN
+F 3 "~" H 6500 9125 50  0001 C CNN
+	1    6500 9125
+	0    1    1    0   
+$EndComp
+$Comp
+L gammy:SW_Push SW302
+U 1 1 5CA5551D
+P 3750 8925
+F 0 "SW302" H 3750 9210 50  0000 C CNN
+F 1 "SW_Push" H 3750 9119 50  0000 C CNN
+F 2 "gammy:SW_Cherry_MX_1.75u_Plate" H 3750 9125 50  0001 C CNN
+F 3 "" H 3750 9125 50  0001 C CNN
+	1    3750 8925
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D302
+U 1 1 5CA55517
+P 4000 9125
+F 0 "D302" H 4000 9390 50  0000 C CNN
+F 1 "DIODE" H 4000 9299 50  0000 C CNN
+F 2 "gammy:D3_TH_SMD_Horizontal" H 4000 9125 50  0001 C CNN
+F 3 "~" H 4000 9125 50  0001 C CNN
+	1    4000 9125
+	0    1    1    0   
+$EndComp
+$Comp
+L gammy:SW_Push SW301
+U 1 1 5CA55511
+P 3750 7350
+F 0 "SW301" H 3750 7635 50  0000 C CNN
+F 1 "SW_Push" H 3750 7544 50  0000 C CNN
+F 2 "gammy:SW_Cherry_MX_1.75u_Plate" H 3750 7550 50  0001 C CNN
+F 3 "" H 3750 7550 50  0001 C CNN
+	1    3750 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D301
+U 1 1 5CA5550B
+P 4000 7550
+F 0 "D301" H 4000 7815 50  0000 C CNN
+F 1 "DIODE" H 4000 7724 50  0000 C CNN
+F 2 "gammy:D3_TH_SMD_Horizontal" H 4000 7550 50  0001 C CNN
+F 3 "~" H 4000 7550 50  0001 C CNN
+	1    4000 7550
+	0    1    1    0   
+$EndComp
+$Comp
+L gammy:SW_Push SW201
+U 1 1 5CA54F71
+P 3750 6575
+F 0 "SW201" H 3750 6860 50  0000 C CNN
+F 1 "SW_Push" H 3750 6769 50  0000 C CNN
+F 2 "gammy:SW_Cherry_MX_1.50u_Plate" H 3750 6775 50  0001 C CNN
+F 3 "" H 3750 6775 50  0001 C CNN
+	1    3750 6575
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D201
+U 1 1 5CA54F6B
+P 4000 6775
+F 0 "D201" H 4000 7040 50  0000 C CNN
+F 1 "DIODE" H 4000 6949 50  0000 C CNN
+F 2 "gammy:D3_TH_SMD_Horizontal" H 4000 6775 50  0001 C CNN
+F 3 "~" H 4000 6775 50  0001 C CNN
+	1    4000 6775
+	0    1    1    0   
+$EndComp
+$Comp
+L gammy:SW_Push SW102
+U 1 1 5CA5191D
+P 5750 8925
+F 0 "SW102" H 5750 9210 50  0000 C CNN
+F 1 "SW_Push" H 5750 9119 50  0000 C CNN
+F 2 "gammy:SW_Cherry_MX_1.25u_Plate" H 5750 9125 50  0001 C CNN
+F 3 "" H 5750 9125 50  0001 C CNN
+	1    5750 8925
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D102
+U 1 1 5CA51917
+P 6000 9125
+F 0 "D102" H 6000 9390 50  0000 C CNN
+F 1 "DIODE" H 6000 9299 50  0000 C CNN
+F 2 "gammy:D3_TH_SMD_Horizontal" H 6000 9125 50  0001 C CNN
+F 3 "~" H 6000 9125 50  0001 C CNN
+	1    6000 9125
+	0    1    1    0   
+$EndComp
+$Comp
+L gammy:SW_Push SW101
+U 1 1 5CA51911
+P 5250 8925
+F 0 "SW101" H 5250 9210 50  0000 C CNN
+F 1 "SW_Push" H 5250 9119 50  0000 C CNN
+F 2 "gammy:SW_Cherry_MX_1.25u_Plate" H 5250 9125 50  0001 C CNN
+F 3 "" H 5250 9125 50  0001 C CNN
+	1    5250 8925
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D101
+U 1 1 5CA5190B
+P 5500 9125
+F 0 "D101" H 5500 9390 50  0000 C CNN
+F 1 "DIODE" H 5500 9299 50  0000 C CNN
+F 2 "gammy:D3_TH_SMD_Horizontal" H 5500 9125 50  0001 C CNN
+F 3 "~" H 5500 9125 50  0001 C CNN
+	1    5500 9125
+	0    1    1    0   
+$EndComp
+$Comp
+L gammy:SW_Push SW20
+U 1 1 5C9F8526
+P 6250 6575
+F 0 "SW20" H 6250 6860 50  0000 C CNN
+F 1 "SW_Push" H 6250 6769 50  0000 C CNN
+F 2 "gammy:SW_Cherry_MX_1.00u_Plate" H 6250 6775 50  0001 C CNN
+F 3 "" H 6250 6775 50  0001 C CNN
+	1    6250 6575
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D20
+U 1 1 5C9F8520
+P 6500 6775
+F 0 "D20" H 6500 7040 50  0000 C CNN
+F 1 "DIODE" H 6500 6949 50  0000 C CNN
+F 2 "gammy:D3_TH_SMD_Horizontal" H 6500 6775 50  0001 C CNN
+F 3 "~" H 6500 6775 50  0001 C CNN
+	1    6500 6775
+	0    1    1    0   
+$EndComp
+$Comp
+L gammy:SW_Push SW19
+U 1 1 5C9F851A
+P 5750 6575
+F 0 "SW19" H 5750 6860 50  0000 C CNN
+F 1 "SW_Push" H 5750 6769 50  0000 C CNN
+F 2 "gammy:SW_Cherry_MX_1.00u_Plate" H 5750 6775 50  0001 C CNN
+F 3 "" H 5750 6775 50  0001 C CNN
+	1    5750 6575
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D19
+U 1 1 5C9F8514
+P 6000 6775
+F 0 "D19" H 6000 7040 50  0000 C CNN
+F 1 "DIODE" H 6000 6949 50  0000 C CNN
+F 2 "gammy:D3_TH_SMD_Horizontal" H 6000 6775 50  0001 C CNN
+F 3 "~" H 6000 6775 50  0001 C CNN
+	1    6000 6775
+	0    1    1    0   
+$EndComp
+$Comp
+L gammy:SW_Push SW18
+U 1 1 5C9F850E
+P 5250 6575
+F 0 "SW18" H 5250 6860 50  0000 C CNN
+F 1 "SW_Push" H 5250 6769 50  0000 C CNN
+F 2 "gammy:SW_Cherry_MX_1.00u_Plate" H 5250 6775 50  0001 C CNN
+F 3 "" H 5250 6775 50  0001 C CNN
+	1    5250 6575
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D18
+U 1 1 5C9F8508
+P 5500 6775
+F 0 "D18" H 5500 7040 50  0000 C CNN
+F 1 "DIODE" H 5500 6949 50  0000 C CNN
+F 2 "gammy:D3_TH_SMD_Horizontal" H 5500 6775 50  0001 C CNN
+F 3 "~" H 5500 6775 50  0001 C CNN
+	1    5500 6775
+	0    1    1    0   
+$EndComp
+$Comp
+L gammy:SW_Push SW17
+U 1 1 5C9F8502
+P 4750 6575
+F 0 "SW17" H 4750 6860 50  0000 C CNN
+F 1 "SW_Push" H 4750 6769 50  0000 C CNN
+F 2 "gammy:SW_Cherry_MX_1.00u_Plate" H 4750 6775 50  0001 C CNN
+F 3 "" H 4750 6775 50  0001 C CNN
+	1    4750 6575
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D17
+U 1 1 5C9F84FC
+P 5000 6775
+F 0 "D17" H 5000 7040 50  0000 C CNN
+F 1 "DIODE" H 5000 6949 50  0000 C CNN
+F 2 "gammy:D3_TH_SMD_Horizontal" H 5000 6775 50  0001 C CNN
+F 3 "~" H 5000 6775 50  0001 C CNN
+	1    5000 6775
+	0    1    1    0   
+$EndComp
+$Comp
+L gammy:SW_Push SW16
+U 1 1 5C9F84F6
+P 4250 6575
+F 0 "SW16" H 4250 6860 50  0000 C CNN
+F 1 "SW_Push" H 4250 6769 50  0000 C CNN
+F 2 "gammy:SW_Cherry_MX_1.00u_Plate" H 4250 6775 50  0001 C CNN
+F 3 "" H 4250 6775 50  0001 C CNN
+	1    4250 6575
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D16
+U 1 1 5C9F84F0
+P 4500 6775
+F 0 "D16" H 4500 7040 50  0000 C CNN
+F 1 "DIODE" H 4500 6949 50  0000 C CNN
+F 2 "gammy:D3_TH_SMD_Horizontal" H 4500 6775 50  0001 C CNN
+F 3 "~" H 4500 6775 50  0001 C CNN
+	1    4500 6775
+	0    1    1    0   
+$EndComp
+$Comp
+L gammy:SW_Push SW15
+U 1 1 5C9F84EA
+P 6250 5800
+F 0 "SW15" H 6250 6085 50  0000 C CNN
+F 1 "SW_Push" H 6250 5994 50  0000 C CNN
+F 2 "gammy:SW_Cherry_MX_1.00u_Plate" H 6250 6000 50  0001 C CNN
+F 3 "" H 6250 6000 50  0001 C CNN
+	1    6250 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D15
+U 1 1 5C9F84E4
+P 6500 6000
+F 0 "D15" H 6500 6265 50  0000 C CNN
+F 1 "DIODE" H 6500 6174 50  0000 C CNN
+F 2 "gammy:D3_TH_SMD_Horizontal" H 6500 6000 50  0001 C CNN
+F 3 "~" H 6500 6000 50  0001 C CNN
+	1    6500 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L gammy:SW_Push SW14
+U 1 1 5C9F84DE
+P 5750 5800
+F 0 "SW14" H 5750 6085 50  0000 C CNN
+F 1 "SW_Push" H 5750 5994 50  0000 C CNN
+F 2 "gammy:SW_Cherry_MX_1.00u_Plate" H 5750 6000 50  0001 C CNN
+F 3 "" H 5750 6000 50  0001 C CNN
+	1    5750 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D14
+U 1 1 5C9F84D8
+P 6000 6000
+F 0 "D14" H 6000 6265 50  0000 C CNN
+F 1 "DIODE" H 6000 6174 50  0000 C CNN
+F 2 "gammy:D3_TH_SMD_Horizontal" H 6000 6000 50  0001 C CNN
+F 3 "~" H 6000 6000 50  0001 C CNN
+	1    6000 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L gammy:SW_Push SW13
+U 1 1 5C9F84D2
+P 5250 5800
+F 0 "SW13" H 5250 6085 50  0000 C CNN
+F 1 "SW_Push" H 5250 5994 50  0000 C CNN
+F 2 "gammy:SW_Cherry_MX_1.00u_Plate" H 5250 6000 50  0001 C CNN
+F 3 "" H 5250 6000 50  0001 C CNN
+	1    5250 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D13
+U 1 1 5C9F84CC
+P 5500 6000
+F 0 "D13" H 5500 6265 50  0000 C CNN
+F 1 "DIODE" H 5500 6174 50  0000 C CNN
+F 2 "gammy:D3_TH_SMD_Horizontal" H 5500 6000 50  0001 C CNN
+F 3 "~" H 5500 6000 50  0001 C CNN
+	1    5500 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L gammy:SW_Push SW12
+U 1 1 5C9F84C6
+P 4750 5800
+F 0 "SW12" H 4750 6085 50  0000 C CNN
+F 1 "SW_Push" H 4750 5994 50  0000 C CNN
+F 2 "gammy:SW_Cherry_MX_1.00u_Plate" H 4750 6000 50  0001 C CNN
+F 3 "" H 4750 6000 50  0001 C CNN
+	1    4750 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D12
+U 1 1 5C9F84C0
+P 5000 6000
+F 0 "D12" H 5000 6265 50  0000 C CNN
+F 1 "DIODE" H 5000 6174 50  0000 C CNN
+F 2 "gammy:D3_TH_SMD_Horizontal" H 5000 6000 50  0001 C CNN
+F 3 "~" H 5000 6000 50  0001 C CNN
+	1    5000 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L gammy:SW_Push SW11
+U 1 1 5C9F84BA
+P 4250 5800
+F 0 "SW11" H 4250 6085 50  0000 C CNN
+F 1 "SW_Push" H 4250 5994 50  0000 C CNN
+F 2 "gammy:SW_Cherry_MX_1.00u_Plate" H 4250 6000 50  0001 C CNN
+F 3 "" H 4250 6000 50  0001 C CNN
+	1    4250 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D11
+U 1 1 5C9F84B4
+P 4500 6000
+F 0 "D11" H 4500 6265 50  0000 C CNN
+F 1 "DIODE" H 4500 6174 50  0000 C CNN
+F 2 "gammy:D3_TH_SMD_Horizontal" H 4500 6000 50  0001 C CNN
+F 3 "~" H 4500 6000 50  0001 C CNN
+	1    4500 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L gammy:SW_Push SW30
+U 1 1 5C9F4ADE
+P 4250 8925
+F 0 "SW30" H 4250 9210 50  0000 C CNN
+F 1 "SW_Push" H 4250 9119 50  0000 C CNN
+F 2 "gammy:SW_Cherry_MX_1.00u_Plate" H 4250 9125 50  0001 C CNN
+F 3 "" H 4250 9125 50  0001 C CNN
+	1    4250 8925
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D30
+U 1 1 5C9F4AD8
+P 4500 9125
+F 0 "D30" H 4500 9390 50  0000 C CNN
+F 1 "DIODE" H 4500 9299 50  0000 C CNN
+F 2 "gammy:D3_TH_SMD_Horizontal" H 4500 9125 50  0001 C CNN
+F 3 "~" H 4500 9125 50  0001 C CNN
+	1    4500 9125
+	0    1    1    0   
+$EndComp
+$Comp
+L gammy:SW_Push SW29
+U 1 1 5C9F4AD2
+P 6250 8125
+F 0 "SW29" H 6250 8410 50  0000 C CNN
+F 1 "SW_Push" H 6250 8319 50  0000 C CNN
+F 2 "gammy:SW_Cherry_MX_1.00u_Plate" H 6250 8325 50  0001 C CNN
+F 3 "" H 6250 8325 50  0001 C CNN
+	1    6250 8125
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D29
+U 1 1 5C9F4ACC
+P 6500 8325
+F 0 "D29" H 6500 8590 50  0000 C CNN
+F 1 "DIODE" H 6500 8499 50  0000 C CNN
+F 2 "gammy:D3_TH_SMD_Horizontal" H 6500 8325 50  0001 C CNN
+F 3 "~" H 6500 8325 50  0001 C CNN
+	1    6500 8325
+	0    1    1    0   
+$EndComp
+$Comp
+L gammy:SW_Push SW28
+U 1 1 5C9F4AC6
+P 5750 8125
+F 0 "SW28" H 5750 8410 50  0000 C CNN
+F 1 "SW_Push" H 5750 8319 50  0000 C CNN
+F 2 "gammy:SW_Cherry_MX_1.00u_Plate" H 5750 8325 50  0001 C CNN
+F 3 "" H 5750 8325 50  0001 C CNN
+	1    5750 8125
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D28
+U 1 1 5C9F4AC0
+P 6000 8325
+F 0 "D28" H 6000 8590 50  0000 C CNN
+F 1 "DIODE" H 6000 8499 50  0000 C CNN
+F 2 "gammy:D3_TH_SMD_Horizontal" H 6000 8325 50  0001 C CNN
+F 3 "~" H 6000 8325 50  0001 C CNN
+	1    6000 8325
+	0    1    1    0   
+$EndComp
+$Comp
+L gammy:SW_Push SW27
+U 1 1 5C9F4ABA
+P 5250 8125
+F 0 "SW27" H 5250 8410 50  0000 C CNN
+F 1 "SW_Push" H 5250 8319 50  0000 C CNN
+F 2 "gammy:SW_Cherry_MX_1.00u_Plate" H 5250 8325 50  0001 C CNN
+F 3 "" H 5250 8325 50  0001 C CNN
+	1    5250 8125
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D27
+U 1 1 5C9F4AB4
+P 5500 8325
+F 0 "D27" H 5500 8590 50  0000 C CNN
+F 1 "DIODE" H 5500 8499 50  0000 C CNN
+F 2 "gammy:D3_TH_SMD_Horizontal" H 5500 8325 50  0001 C CNN
+F 3 "~" H 5500 8325 50  0001 C CNN
+	1    5500 8325
+	0    1    1    0   
+$EndComp
+$Comp
+L gammy:SW_Push SW26
+U 1 1 5C9F4AAE
+P 4750 8125
+F 0 "SW26" H 4750 8410 50  0000 C CNN
+F 1 "SW_Push" H 4750 8319 50  0000 C CNN
+F 2 "gammy:SW_Cherry_MX_1.00u_Plate" H 4750 8325 50  0001 C CNN
+F 3 "" H 4750 8325 50  0001 C CNN
+	1    4750 8125
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D26
+U 1 1 5C9F4AA8
+P 5000 8325
+F 0 "D26" H 5000 8590 50  0000 C CNN
+F 1 "DIODE" H 5000 8499 50  0000 C CNN
+F 2 "gammy:D3_TH_SMD_Horizontal" H 5000 8325 50  0001 C CNN
+F 3 "~" H 5000 8325 50  0001 C CNN
+	1    5000 8325
+	0    1    1    0   
+$EndComp
+$Comp
+L gammy:SW_Push SW25
+U 1 1 5C9F4AA2
+P 6250 7350
+F 0 "SW25" H 6250 7635 50  0000 C CNN
+F 1 "SW_Push" H 6250 7544 50  0000 C CNN
+F 2 "gammy:SW_Cherry_MX_1.00u_Plate" H 6250 7550 50  0001 C CNN
+F 3 "" H 6250 7550 50  0001 C CNN
+	1    6250 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D25
+U 1 1 5C9F4A9C
+P 6500 7550
+F 0 "D25" H 6500 7815 50  0000 C CNN
+F 1 "DIODE" H 6500 7724 50  0000 C CNN
+F 2 "gammy:D3_TH_SMD_Horizontal" H 6500 7550 50  0001 C CNN
+F 3 "~" H 6500 7550 50  0001 C CNN
+	1    6500 7550
+	0    1    1    0   
+$EndComp
+$Comp
+L gammy:SW_Push SW24
+U 1 1 5C9F4A96
+P 5750 7350
+F 0 "SW24" H 5750 7635 50  0000 C CNN
+F 1 "SW_Push" H 5750 7544 50  0000 C CNN
+F 2 "gammy:SW_Cherry_MX_1.00u_Plate" H 5750 7550 50  0001 C CNN
+F 3 "" H 5750 7550 50  0001 C CNN
+	1    5750 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D24
+U 1 1 5C9F4A90
+P 6000 7550
+F 0 "D24" H 6000 7815 50  0000 C CNN
+F 1 "DIODE" H 6000 7724 50  0000 C CNN
+F 2 "gammy:D3_TH_SMD_Horizontal" H 6000 7550 50  0001 C CNN
+F 3 "~" H 6000 7550 50  0001 C CNN
+	1    6000 7550
+	0    1    1    0   
+$EndComp
+$Comp
+L gammy:SW_Push SW23
+U 1 1 5C9F4A8A
+P 5250 7350
+F 0 "SW23" H 5250 7635 50  0000 C CNN
+F 1 "SW_Push" H 5250 7544 50  0000 C CNN
+F 2 "gammy:SW_Cherry_MX_1.00u_Plate" H 5250 7550 50  0001 C CNN
+F 3 "" H 5250 7550 50  0001 C CNN
+	1    5250 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D23
+U 1 1 5C9F4A84
+P 5500 7550
+F 0 "D23" H 5500 7815 50  0000 C CNN
+F 1 "DIODE" H 5500 7724 50  0000 C CNN
+F 2 "gammy:D3_TH_SMD_Horizontal" H 5500 7550 50  0001 C CNN
+F 3 "~" H 5500 7550 50  0001 C CNN
+	1    5500 7550
+	0    1    1    0   
+$EndComp
+$Comp
+L gammy:SW_Push SW22
+U 1 1 5C9F4A7E
+P 4750 7350
+F 0 "SW22" H 4750 7635 50  0000 C CNN
+F 1 "SW_Push" H 4750 7544 50  0000 C CNN
+F 2 "gammy:SW_Cherry_MX_1.00u_Plate" H 4750 7550 50  0001 C CNN
+F 3 "" H 4750 7550 50  0001 C CNN
+	1    4750 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D22
+U 1 1 5C9F4A78
+P 5000 7550
+F 0 "D22" H 5000 7815 50  0000 C CNN
+F 1 "DIODE" H 5000 7724 50  0000 C CNN
+F 2 "gammy:D3_TH_SMD_Horizontal" H 5000 7550 50  0001 C CNN
+F 3 "~" H 5000 7550 50  0001 C CNN
+	1    5000 7550
+	0    1    1    0   
+$EndComp
+$Comp
+L gammy:SW_Push SW21
+U 1 1 5C9F4A72
+P 4250 7350
+F 0 "SW21" H 4250 7635 50  0000 C CNN
+F 1 "SW_Push" H 4250 7544 50  0000 C CNN
+F 2 "gammy:SW_Cherry_MX_1.00u_Plate" H 4250 7550 50  0001 C CNN
+F 3 "" H 4250 7550 50  0001 C CNN
+	1    4250 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D21
+U 1 1 5C9F4A6C
+P 4500 7550
+F 0 "D21" H 4500 7815 50  0000 C CNN
+F 1 "DIODE" H 4500 7724 50  0000 C CNN
+F 2 "gammy:D3_TH_SMD_Horizontal" H 4500 7550 50  0001 C CNN
+F 3 "~" H 4500 7550 50  0001 C CNN
+	1    4500 7550
+	0    1    1    0   
+$EndComp
+$Comp
+L gammy:SW_Push SW10
+U 1 1 5C9F461A
+P 3750 5800
+F 0 "SW10" H 3750 6085 50  0000 C CNN
+F 1 "SW_Push" H 3750 5994 50  0000 C CNN
+F 2 "gammy:SW_Cherry_MX_1.00u_Plate" H 3750 6000 50  0001 C CNN
+F 3 "" H 3750 6000 50  0001 C CNN
+	1    3750 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D10
+U 1 1 5C9F4614
+P 4000 6000
+F 0 "D10" H 4000 6265 50  0000 C CNN
+F 1 "DIODE" H 4000 6174 50  0000 C CNN
+F 2 "gammy:D3_TH_SMD_Horizontal" H 4000 6000 50  0001 C CNN
+F 3 "~" H 4000 6000 50  0001 C CNN
+	1    4000 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L gammy:SW_Push SW7
+U 1 1 5C9F458A
+P 6250 5025
+F 0 "SW7" H 6250 5310 50  0000 C CNN
+F 1 "SW_Push" H 6250 5219 50  0000 C CNN
+F 2 "gammy:SW_Cherry_MX_1.00u_Plate" H 6250 5225 50  0001 C CNN
+F 3 "" H 6250 5225 50  0001 C CNN
+	1    6250 5025
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D7
+U 1 1 5C9F4584
+P 6500 5225
+F 0 "D7" H 6500 5490 50  0000 C CNN
+F 1 "DIODE" H 6500 5399 50  0000 C CNN
+F 2 "gammy:D3_TH_SMD_Horizontal" H 6500 5225 50  0001 C CNN
+F 3 "~" H 6500 5225 50  0001 C CNN
+	1    6500 5225
+	0    1    1    0   
+$EndComp
+$Comp
+L gammy:SW_Push SW6
+U 1 1 5C9F457E
+P 5750 5025
+F 0 "SW6" H 5750 5310 50  0000 C CNN
+F 1 "SW_Push" H 5750 5219 50  0000 C CNN
+F 2 "gammy:SW_Cherry_MX_1.00u_Plate" H 5750 5225 50  0001 C CNN
+F 3 "" H 5750 5225 50  0001 C CNN
+	1    5750 5025
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D6
+U 1 1 5C9F4578
+P 6000 5225
+F 0 "D6" H 6000 5490 50  0000 C CNN
+F 1 "DIODE" H 6000 5399 50  0000 C CNN
+F 2 "gammy:D3_TH_SMD_Horizontal" H 6000 5225 50  0001 C CNN
+F 3 "~" H 6000 5225 50  0001 C CNN
+	1    6000 5225
+	0    1    1    0   
+$EndComp
+$Comp
+L gammy:SW_Push SW5
+U 1 1 5C9F4572
+P 5250 5025
+F 0 "SW5" H 5250 5310 50  0000 C CNN
+F 1 "SW_Push" H 5250 5219 50  0000 C CNN
+F 2 "gammy:SW_Cherry_MX_1.00u_Plate" H 5250 5225 50  0001 C CNN
+F 3 "" H 5250 5225 50  0001 C CNN
+	1    5250 5025
+	1    0    0    -1  
+$EndComp
+$Comp
+L gammy:SW_Push SW4
+U 1 1 5C9F41FB
+P 4750 5025
+F 0 "SW4" H 4750 5310 50  0000 C CNN
+F 1 "SW_Push" H 4750 5219 50  0000 C CNN
+F 2 "gammy:SW_Cherry_MX_1.00u_Plate" H 4750 5225 50  0001 C CNN
+F 3 "" H 4750 5225 50  0001 C CNN
+	1    4750 5025
+	1    0    0    -1  
+$EndComp
+$Comp
+L gammy:SW_Push SW3
+U 1 1 5C9F41EF
+P 3750 5025
+F 0 "SW3" H 3750 5310 50  0000 C CNN
+F 1 "SW_Push" H 3750 5219 50  0000 C CNN
+F 2 "gammy:SW_Cherry_MX_1.00u_Plate" H 3750 5225 50  0001 C CNN
+F 3 "" H 3750 5225 50  0001 C CNN
+	1    3750 5025
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D5
+U 1 1 5C9F456C
+P 5500 5225
+F 0 "D5" H 5500 5490 50  0000 C CNN
+F 1 "DIODE" H 5500 5399 50  0000 C CNN
+F 2 "gammy:D3_TH_SMD_Horizontal" H 5500 5225 50  0001 C CNN
+F 3 "~" H 5500 5225 50  0001 C CNN
+	1    5500 5225
+	0    1    1    0   
+$EndComp
+$Comp
+L pspice:DIODE D4
+U 1 1 5C9F41F5
+P 5000 5225
+F 0 "D4" H 5000 5490 50  0000 C CNN
+F 1 "DIODE" H 5000 5399 50  0000 C CNN
+F 2 "gammy:D3_TH_SMD_Horizontal" H 5000 5225 50  0001 C CNN
+F 3 "~" H 5000 5225 50  0001 C CNN
+	1    5000 5225
+	0    1    1    0   
+$EndComp
+Connection ~ 4000 8525
+Wire Wire Line
+	3325 8525 4000 8525
+Connection ~ 4000 9325
+Connection ~ 4000 7750
+Wire Wire Line
+	3325 7750 4000 7750
+Wire Wire Line
+	4000 7750 4500 7750
+Connection ~ 4000 6975
+Connection ~ 4000 6200
+Wire Wire Line
+	6000 9325 6500 9325
+Wire Wire Line
+	5500 9325 6000 9325
+Wire Wire Line
+	3325 6975 4000 6975
+Wire Wire Line
+	4000 6975 4500 6975
+Connection ~ 6000 5425
+Wire Wire Line
+	6500 5425 6000 5425
+Wire Wire Line
+	5500 5425 6000 5425
+Connection ~ 6000 6975
+Wire Wire Line
+	6000 6975 6500 6975
+Wire Wire Line
+	5500 6975 6000 6975
+Connection ~ 4500 9325
+Wire Wire Line
+	3325 9325 4000 9325
+Connection ~ 5000 6975
+Wire Wire Line
+	5000 6975 5500 6975
+Wire Wire Line
+	4500 6975 5000 6975
+Connection ~ 4500 6975
+Wire Wire Line
+	4500 7750 5000 7750
+Wire Wire Line
+	5000 7750 5500 7750
+Connection ~ 4500 7750
+Connection ~ 6000 6200
+Wire Wire Line
+	6000 6200 6500 6200
+Wire Wire Line
+	5500 6200 6000 6200
+Wire Wire Line
+	4000 8525 5000 8525
+Wire Wire Line
+	5000 8525 5500 8525
+Connection ~ 5000 8525
+Connection ~ 5500 6975
+Connection ~ 5500 8525
+Wire Wire Line
+	6000 7750 6500 7750
+Wire Wire Line
+	5500 7750 6000 7750
+Connection ~ 6000 7750
+Wire Wire Line
+	3325 6200 4000 6200
+Wire Wire Line
+	4000 6200 4500 6200
+Wire Wire Line
+	5500 8525 6000 8525
+Wire Wire Line
+	6000 8525 6500 8525
+Connection ~ 6000 8525
+Connection ~ 5500 7750
+Connection ~ 5000 7750
+Connection ~ 5500 6200
+Wire Wire Line
+	5500 6200 5000 6200
+Wire Wire Line
+	5000 6200 4500 6200
+Connection ~ 5000 6200
+Connection ~ 4500 6200
+Connection ~ 5500 5425
+Wire Wire Line
+	4000 5425 5000 5425
+Wire Wire Line
+	5000 5425 5500 5425
+Connection ~ 5000 5425
+Connection ~ 6000 9325
+Connection ~ 5500 9325
+Wire Wire Line
+	4000 9325 4500 9325
+Wire Wire Line
+	4500 9325 5500 9325
+$Comp
+L pspice:DIODE D3
+U 1 1 5C9F41E9
+P 4000 5225
+F 0 "D3" H 4000 5490 50  0000 C CNN
+F 1 "DIODE" H 4000 5399 50  0000 C CNN
+F 2 "gammy:D3_TH_SMD_Horizontal" H 4000 5225 50  0001 C CNN
+F 3 "~" H 4000 5225 50  0001 C CNN
+	1    4000 5225
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC

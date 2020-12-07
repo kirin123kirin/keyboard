@@ -30,3 +30,15 @@
 *.exe
 *.out
 *.app
+
+# Kicad Files
+dsn/*
+*.dsn
+*.rules
+*.ses
+*-bak
+_autosave-*
+*.zip
+*-lib-table
+*-cache*
+*-rescue*
