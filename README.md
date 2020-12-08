@@ -1,3 +1,1 @@
-# keyboard
-custom keyboard project
-
+自作キーボードの沼
