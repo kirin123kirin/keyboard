@@ -9,12 +9,15 @@ Hardware Supported: Elite-C(atmega32u4) Pro Micro互換
 
 
 ## buildのみ場合
+
 ```bash
 make gammy/rev1:default
 ```
+
 ## そのままfirmware書き込む場合
+
 ```bash
-    make gammy/rev1:default:dfu
+make gammy/rev1:default:dfu
 ```
 
 ## 参考
