@@ -37,6 +37,9 @@
 9. [Filco交換用](https://www.diatec.co.jp/shop/det.php?prod_c=3716) もうこれでいいか
 
 
-## TODO 沼６：ケース作成
-10. dmm.comの3Dプリントサービスで作る予定
+## 沼６：ケース作成
+10. [Plate & Case Builder](http://builder.swillkb.com/)
+  -> keyboard-layout-editorのRAWデータからCADデータ自動作成
+
+11. [dmmプリント](https://make.dmm.com/print/)の3Dプリントサービスで作る予定
 
