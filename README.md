@@ -22,6 +22,7 @@
 3. [自動レイアウト](https://github.com/yskoht/keyboard-layouter)
 4. [自動配線](https://freerouting.mihosoft.eu/)
 5. [Elecrow発注データ作成は自作](https://github.com/kirin123kirin/keyboard/blob/main/pcb/basic_L/garbar.py)
+6, TODO ... Caps Lock LED回路
 
 ## 沼３：ファームウェア書き込み
 6. [半自動firmware作成](https://kbfirmware.com/)
@@ -41,5 +42,8 @@
 10. [Plate & Case Builder](http://builder.swillkb.com/)
   -> keyboard-layout-editorのRAWデータからCADデータ自動作成
 
-11. [dmmプリント](https://make.dmm.com/print/)の3Dプリントサービスで作る予定
+11. [Kicad PCB to Fusion360](https://garchiving.com/output-3d-model-with-kicad/)
+
+## 沼７：3Dプリンタ
+99. [dmmプリント](https://make.dmm.com/print/)の3Dプリントサービスで作る予定
 
