@@ -42,3 +42,4 @@ _autosave-*
 *-lib-table
 *-cache*
 *-rescue*
+*.step
