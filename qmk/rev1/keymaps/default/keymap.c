@@ -17,7 +17,7 @@
 
 #include QMK_KEYBOARD_H
 #include "keymap_jp.h"
-
+#include <sendstring_jis.h>
 /*
 enum layers{
     BASE=0,
