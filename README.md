@@ -22,7 +22,7 @@
 3. [自動レイアウト](https://github.com/yskoht/keyboard-layouter)
 4. [自動配線](https://freerouting.mihosoft.eu/)
 5. [Elecrow発注データ作成は自作](https://github.com/kirin123kirin/keyboard/blob/main/pcb/basic_L/garbar.py)
-6, TODO ... Caps Lock LED回路
+6. TODO ... Caps Lock LED回路
 
 ## 沼３：ファームウェア書き込み
 6. [半自動firmware作成](https://kbfirmware.com/)
