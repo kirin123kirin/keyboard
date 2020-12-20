@@ -15,7 +15,8 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include QMK_KEYBOARD_H
+#include "../../config.h"
+#include "../../rev1.h"
 #include "keymap_jp.h"
 #include <sendstring_jis.h>
 /*

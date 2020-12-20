@@ -43,3 +43,8 @@ _autosave-*
 *-cache*
 *-rescue*
 *.step
+
+# qmk files
+.vs
+*.sln
+*.vcxproj*
