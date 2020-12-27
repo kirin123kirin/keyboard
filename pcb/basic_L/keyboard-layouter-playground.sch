@@ -198,13 +198,13 @@ Text GLabel 4325 2775 0    50   Input ~ 0
 row4
 Text GLabel 4325 2975 0    50   Input ~ 0
 row2
-Text GLabel 4875 3525 3    50   Input ~ 0
+Text GLabel 5775 3075 2    50   Input ~ 0
 row1
-Text GLabel 5075 3525 3    50   Input ~ 0
+Text GLabel 5775 2875 2    50   Input ~ 0
 COL2
-Text GLabel 5275 3525 3    50   Input ~ 0
+Text GLabel 5775 2475 2    50   Input ~ 0
 COL4
-Text GLabel 5175 3525 3    50   Input ~ 0
+Text GLabel 5775 2575 2    50   Input ~ 0
 COL3
 Wire Wire Line
 	5775 2175 6225 2175
@@ -219,7 +219,6 @@ F 3 "" H 2825 2100 50  0001 C CNN
 	1    2825 2100
 	0    -1   -1   0   
 $EndComp
-NoConn ~ 5775 2675
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 6003131C
@@ -269,8 +268,6 @@ F 3 "~" H 6575 3200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5775 3075 5825 3075
-Wire Wire Line
 	5175 3475 5175 3525
 Wire Wire Line
 	5275 3475 5275 3525
@@ -290,9 +287,9 @@ Wire Wire Line
 	4375 2775 4325 2775
 Wire Wire Line
 	4325 2675 4375 2675
-Text GLabel 4975 3525 3    50   Input ~ 0
+Text GLabel 5775 2975 2    50   Input ~ 0
 COL1
-Text GLabel 5825 3075 2    50   Input ~ 0
+Text GLabel 5775 2375 2    50   Input ~ 0
 COL5
 NoConn ~ 4375 1975
 Wire Wire Line
@@ -305,8 +302,6 @@ Wire Wire Line
 Text GLabel 3175 2375 0    50   Input ~ 0
 SDA1
 NoConn ~ 5775 2775
-NoConn ~ 5775 2875
-NoConn ~ 5775 2975
 $Comp
 L power:GND #PWR0113
 U 1 1 5FBDC72C
@@ -342,9 +337,6 @@ F 3 "" H 5775 2275 50  0001 C CNN
 $EndComp
 Text GLabel 3550 4525 0    50   Input ~ 0
 COL0
-NoConn ~ 5775 2375
-NoConn ~ 5775 2475
-NoConn ~ 5775 2575
 Wire Wire Line
 	3225 2475 3225 1975
 Wire Wire Line
@@ -1279,4 +1271,10 @@ F 3 "~" H 4000 5225 50  0001 C CNN
 	1    4000 5225
 	0    1    1    0   
 $EndComp
+NoConn ~ 5775 2675
+NoConn ~ 5275 3525
+NoConn ~ 5175 3525
+NoConn ~ 5075 3525
+NoConn ~ 4975 3525
+NoConn ~ 4875 3525
 $EndSCHEMATC
