@@ -39,7 +39,6 @@ dsn/*
 *-bak
 _autosave-*
 *.zip
-*-lib-table
 *-cache*
 *-rescue*
 *.step
