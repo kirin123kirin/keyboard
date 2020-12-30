@@ -22,7 +22,6 @@
 3. [自動レイアウト](https://github.com/yskoht/keyboard-layouter)
 4. [自動配線](https://freerouting.mihosoft.eu/)
 5. [Elecrow発注データ作成は自作](https://github.com/kirin123kirin/keyboard/blob/main/pcb/basic_L/garbar.py)
-6. TODO ... Caps Lock LED回路
 
 ## 沼３：ファームウェア書き込み
 6. [半自動firmware作成](https://kbfirmware.com/)
@@ -32,11 +31,10 @@
 7. 赤軸(軽い) or 黒軸(重い) / CherryMX(90円) or KailhBox(40円)
 
 ## 沼５：キーキャップ選び
-8. [刻印サービス](https://yushakobo.jp/keycap-laser-marking/)
-  -> 高いので妥協
+8. [Filco交換用](https://amzn.to/37BaPCG)
 
-9. [Filco交換用](https://www.diatec.co.jp/shop/det.php?prod_c=3716) もうこれでいいか
-
+9. [刻印サービス](https://yushakobo.jp/keycap-laser-marking/)
+  -> 高いのでやめる
 
 ## 沼６：ケース作成
 10. [Plate & Case Builder](http://builder.swillkb.com/)
@@ -44,9 +42,10 @@
 
 11. [Kicad PCB to Fusion360](https://garchiving.com/output-3d-model-with-kicad/)
 
-## 沼７：3Dプリンタ
-99. [Elecrow 3D Printing Service](https://www.elecrow.com/3d-printing-service.html)
+12. [Elecrow 3D Printing Service](https://www.elecrow.com/3d-printing-service.html)
 
+## 沼７：トラックポイントをつける
+TODO
 
 ## かかった費用
 
