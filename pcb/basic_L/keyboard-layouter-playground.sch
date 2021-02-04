@@ -202,9 +202,9 @@ Text GLabel 5775 3075 2    50   Input ~ 0
 row1
 Text GLabel 5775 2875 2    50   Input ~ 0
 COL2
-Text GLabel 5775 2475 2    50   Input ~ 0
-COL4
 Text GLabel 5775 2575 2    50   Input ~ 0
+COL4
+Text GLabel 5775 2675 2    50   Input ~ 0
 COL3
 Wire Wire Line
 	5775 2175 6225 2175
@@ -289,7 +289,7 @@ Wire Wire Line
 	4325 2675 4375 2675
 Text GLabel 5775 2975 2    50   Input ~ 0
 COL1
-Text GLabel 5775 2375 2    50   Input ~ 0
+Text GLabel 5775 2475 2    50   Input ~ 0
 COL5
 NoConn ~ 4375 1975
 Wire Wire Line
@@ -1271,10 +1271,10 @@ F 3 "~" H 4000 5225 50  0001 C CNN
 	1    4000 5225
 	0    1    1    0   
 $EndComp
-NoConn ~ 5775 2675
 NoConn ~ 5275 3525
 NoConn ~ 5175 3525
 NoConn ~ 5075 3525
 NoConn ~ 4975 3525
 NoConn ~ 4875 3525
+NoConn ~ 5775 2375
 $EndSCHEMATC

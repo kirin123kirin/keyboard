@@ -694,7 +694,7 @@ U 1 1 5CA5F831
 P 5400 7400
 F 0 "SW901" H 5400 7685 50  0000 C CNN
 F 1 "SW_Push" H 5400 7594 50  0000 C CNN
-F 2 "gammy:SW_Cherry_MX_ISOEnter_Plate" H 5400 7600 50  0001 C CNN
+F 2 "gammy:SW_Cherry_MX_ISOEnter_Stabilizer_5pin" H 5400 7600 50  0001 C CNN
 F 3 "" H 5400 7600 50  0001 C CNN
 	1    5400 7400
 	1    0    0    -1  

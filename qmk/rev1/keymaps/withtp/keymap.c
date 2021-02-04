@@ -67,5 +67,19 @@ void led_set_user(uint8_t usb_led) {
 }
 
 void encoder_update_user(uint8_t index, bool clockwise) {
-     // put your scroll wheel
+    // put your scroll wheel
+    
+    if (index == 0) { /* First encoder */
+        if (clockwise) {
+            tap_code(KC_MS_WH_UP);
+        } else {
+            tap_code(KC_MS_WH_DOWN);
+        }
+    } else if (index == 1) { /* Second encoder */
+        if (clockwise) {
+            tap_code(KC_DOWN);
+        } else {
+            tap_code(KC_UP);
+        }
+    }
 }

@@ -1,0 +1,10 @@
+PS2_MOUSE_ENABLE = yes
+PS2_USE_BUSYWAIT = yes
+#PS2_USE_INT = yes
+#PS2_USE_USART = yes
+OLED_DRIVER_ENABLE = no
+
+
+# Scroll wheel Enable Setting
+MOUSEKEY_ENABLE = yes
+ENCODER_ENABLE = yes

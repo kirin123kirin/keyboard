@@ -18,10 +18,10 @@ rm -rf ./tmp_
 cd ./qmk_firmware
 
 ## buildのみ場合
-make gammy/rev1:default
+make gammy/rev0:default
 
 ## そのままfirmware書き込む場合
-make gammy/rev1:default:dfu
+make gammy/rev0:default:dfu
 ls -l *.hex
 
 ```
