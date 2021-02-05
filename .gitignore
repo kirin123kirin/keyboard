@@ -50,3 +50,6 @@ _autosave-*
 .vs
 *.sln
 *.vcxproj*
+
+# secret files
+password.h

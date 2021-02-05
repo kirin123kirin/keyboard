@@ -19,16 +19,23 @@
 #include "rev0.h"
 #include "keymap_jp.h"
 #include <sendstring_jis.h>
-/*
-enum layers{
-    BASE=0,
-    CURSOR
-};
-*/
+#if __has_include("password.h")
+  #include "password.h"
+#endif
 
-enum layers{
-    BASE=0
+// Defines names for use in layer keycodes and the keymap
+enum layer_names {
+  BASE=0,
+
+#if __has_include("password.h")
+  _FN,
+#endif
+
 };
+
+#define MO_FN MO(_FN)
+#define LT_APP LT(_FN, KC_APP)
+
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [BASE] = LAYOUT(
@@ -37,16 +44,72 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_TAB,     KC_Q,     KC_W,     KC_E,      KC_R,      KC_T,            KC_Y,       KC_U,      KC_I,       KC_O,      KC_P,      JP_AT,     JP_LBRC,                            KC_DELETE,     KC_END,          KC_PGDOWN,
     KC_CAPS,    KC_A,     KC_S,     KC_D,      KC_F,      KC_G,            KC_H,       KC_J,      KC_K,       KC_L,      JP_SCLN,   JP_COLN,   JP_RBRC,   KC_ENTER,
     KC_LSHIFT,            KC_Z,     KC_X,      KC_C,      KC_V,            KC_B,       KC_N,      KC_M,       JP_COMM,   JP_DOT,    JP_SLSH,   JP_BSLS,   KC_RSHIFT,               KC_WWW_BACK,   KC_UP,           KC_WWW_FORWARD,
-    KC_LCTRL,   KC_LWIN,            KC_LALT,   JP_MHEN,   KC_SPACE,        KC_SPACE,   JP_HENK,   KC_RCTRL,              KC_RALT,   KC_RWIN,   KC_APP,    KC_RCTRL,                KC_LEFT,       KC_DOWN,         KC_RIGHT
-  )
+    KC_LCTRL,   KC_LWIN,            KC_LALT,   JP_MHEN,   KC_SPACE,        KC_SPACE,   JP_HENK,   KC_RCTRL,              KC_RALT,   KC_RWIN,   LT_APP,    KC_RCTRL,                KC_LEFT,       KC_DOWN,         KC_RIGHT
+  ),
+#if __has_include("password.h")
+  [_FN] = LAYOUT(
+    _______,           PASS1,   PASS2,   PASS3,   PASS4,          PASS5,   PASS6,   PASS7,    PASS8,            _______,  _______,  _______,  PASS0,    _______,  _______, _______,
+    _______, PASS1,    PASS2,   PASS3,   PASS4,   PASS5,          PASS6  , PASS7,   PASS8,    _______, PASS0,   _______,  _______,  _______,  _______,  _______,  _______, _______,
+    _______, _______,  _______, _______, _______, _______,        _______, _______, _______,  _______, _______, _______,  _______,                      _______,  _______, _______,
+    _______, _______,  _______, _______, _______, _______,        _______, _______, _______,  _______, _______, _______,  _______,  _______,
+    _______,           _______, _______, _______, _______,        _______, _______, _______,  _______, _______, _______,  _______,  _______,            _______,  _______, _______,
+    _______, _______,           _______, _______, _______,        _______, _______, _______,  _______, _______, _______,  _______,                      _______,  _______, _______
+  ),
+#endif
+
 };
 
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
   switch (keycode) {
 
+#if __has_include("password.h")
+    case PASS0:
+      if (record->event.pressed) SEND_STRING(PWD0);
+      break;
+
+    case PASS1:
+      if (record->event.pressed) SEND_STRING(PWD1);
+      break;
+
+    case PASS2:
+      if (record->event.pressed) SEND_STRING(PWD2);
+      break;
+
+    case PASS3:
+      if (record->event.pressed) SEND_STRING(PWD3);
+      break;
+
+    case PASS4:
+      if (record->event.pressed) SEND_STRING(PWD4);
+      break;
+
+    case PASS5:
+      if (record->event.pressed) SEND_STRING(PWD5);
+      break;
+
+    case PASS6:
+      if (record->event.pressed) SEND_STRING(PWD6);
+      break;
+
+    case PASS7:
+      if (record->event.pressed) SEND_STRING(PWD7);
+      break;
+
+    case PASS8:
+      if (record->event.pressed) SEND_STRING(PWD8);
+      break;
+
+    case PASS9:
+      if (record->event.pressed) SEND_STRING(PWD9);
+      break;
+
+
+#endif
+
   }
   return true;
 }
+
 
 void matrix_init_user(void) {
 	// put your keyboard start-up code here
@@ -67,5 +130,5 @@ void led_set_user(uint8_t usb_led) {
 }
 
 void encoder_update_user(uint8_t index, bool clockwise) {
-     // put your scroll wheel
+	// put your scroll wheel
 }
