@@ -2,6 +2,7 @@ trackpoint add
 
 # Left Elite-C PIN asign
 
+```
       Wheel Mouse KEY   PIN_L                               PIN_R KEY   Mouse Wheel 
                                                             Vbus                    
                         D3    TX                      RAW   B0                      
@@ -20,10 +21,11 @@ PIN_B                         B7    D5    C7    F1    F0
 KEY                                                                                 
 Mouse                                                                               
 Wheel                                                                               
-
+```
 
 # Right Elite-C PIN asign
 
+```
       Wheel Mouse KEY   PIN_L                               PIN_R KEY   Mouse Wheel 
                                                             Vbus                    
             B_CLK       D3    TX                      RAW   B0                      
@@ -42,3 +44,4 @@ PIN_B                         B7    D5    C7    F1    F0
 KEY                           COL12 COL13 COL14 COL15 COL16                         
 Mouse                                                                               
 Wheel                                                                               
+```
