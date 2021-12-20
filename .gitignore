@@ -48,6 +48,7 @@ _autosave-*
 
 # qmk files
 .vs
+.idea
 *.sln
 *.vcxproj*
 

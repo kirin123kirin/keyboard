@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name gammy)(type Legacy)(uri ${KIPRJMOD}/../lib/gammy.lib)(options "")(descr ""))
+  (lib (name keyboard-layouter-playground-rescue)(type Legacy)(uri ${KIPRJMOD}/keyboard-layouter-playground-rescue.lib)(options "")(descr ""))
+  (lib (name kyosoc)(type Legacy)(uri C:/Users/yellow/Documents/kicad/train/kakudo/pcb/kyosoc.lib)(options "")(descr ""))
+)
