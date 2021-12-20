@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name Elite-C)(type Legacy)(uri C:/Users/yellow/Documents/kicad/tmpl/keyboard-layouter-playground-rescue.lib)(options "")(descr ""))
+  (lib (name gammy)(type Legacy)(uri C:/Users/yellow/Documents/kicad/lib/gammy.lib)(options "")(descr ""))
+  (lib (name a_gammy)(type Legacy)(uri C:/Users/yellow/Documents/kicad/keyboard/pcb/lib/gammy.lib)(options "")(descr ""))
+)

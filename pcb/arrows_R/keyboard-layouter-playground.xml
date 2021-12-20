@@ -1,0 +1,2760 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\yellow\Documents\kicad\tmpl\keyboard-layouter-playground.sch</source>
+    <date>2020/11/14 18:02:42</date>
+    <tool>Eeschema (5.1.8)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>gammy split</title>
+        <company>Kirin123</company>
+        <rev>both_r2</rev>
+        <date>2020-11-14</date>
+        <source>keyboard-layouter-playground.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9DAFEE</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F4141</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F4147</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F41E9</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F41EF</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F41F5</tstamp>
+    </comp>
+    <comp ref="SW4">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F41FB</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F456C</tstamp>
+    </comp>
+    <comp ref="SW5">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F4572</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F4578</tstamp>
+    </comp>
+    <comp ref="SW6">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F457E</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F4584</tstamp>
+    </comp>
+    <comp ref="SW7">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F458A</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F4590</tstamp>
+    </comp>
+    <comp ref="SW8">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F4596</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F4608</tstamp>
+    </comp>
+    <comp ref="SW9">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F460E</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F4614</tstamp>
+    </comp>
+    <comp ref="SW10">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F461A</tstamp>
+    </comp>
+    <comp ref="D21">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F4A6C</tstamp>
+    </comp>
+    <comp ref="SW21">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F4A72</tstamp>
+    </comp>
+    <comp ref="D22">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F4A78</tstamp>
+    </comp>
+    <comp ref="SW22">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F4A7E</tstamp>
+    </comp>
+    <comp ref="D23">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F4A84</tstamp>
+    </comp>
+    <comp ref="SW23">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F4A8A</tstamp>
+    </comp>
+    <comp ref="D24">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F4A90</tstamp>
+    </comp>
+    <comp ref="SW24">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F4A96</tstamp>
+    </comp>
+    <comp ref="D25">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F4A9C</tstamp>
+    </comp>
+    <comp ref="SW25">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F4AA2</tstamp>
+    </comp>
+    <comp ref="D26">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F4AA8</tstamp>
+    </comp>
+    <comp ref="SW26">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F4AAE</tstamp>
+    </comp>
+    <comp ref="D27">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F4AB4</tstamp>
+    </comp>
+    <comp ref="SW27">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F4ABA</tstamp>
+    </comp>
+    <comp ref="D28">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F4AC0</tstamp>
+    </comp>
+    <comp ref="SW28">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F4AC6</tstamp>
+    </comp>
+    <comp ref="D29">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F4ACC</tstamp>
+    </comp>
+    <comp ref="SW29">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F4AD2</tstamp>
+    </comp>
+    <comp ref="D30">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F4AD8</tstamp>
+    </comp>
+    <comp ref="SW30">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F4ADE</tstamp>
+    </comp>
+    <comp ref="D87">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F65A8</tstamp>
+    </comp>
+    <comp ref="SW87">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F65AE</tstamp>
+    </comp>
+    <comp ref="D88">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F65B4</tstamp>
+    </comp>
+    <comp ref="SW88">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F65BA</tstamp>
+    </comp>
+    <comp ref="D89">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F65C0</tstamp>
+    </comp>
+    <comp ref="SW89">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F65C6</tstamp>
+    </comp>
+    <comp ref="D90">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F65CC</tstamp>
+    </comp>
+    <comp ref="SW90">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F65D2</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F84B4</tstamp>
+    </comp>
+    <comp ref="SW11">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F84BA</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F84C0</tstamp>
+    </comp>
+    <comp ref="SW12">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F84C6</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F84CC</tstamp>
+    </comp>
+    <comp ref="SW13">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F84D2</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F84D8</tstamp>
+    </comp>
+    <comp ref="SW14">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F84DE</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F84E4</tstamp>
+    </comp>
+    <comp ref="SW15">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F84EA</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F84F0</tstamp>
+    </comp>
+    <comp ref="SW16">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F84F6</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F84FC</tstamp>
+    </comp>
+    <comp ref="SW17">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F8502</tstamp>
+    </comp>
+    <comp ref="D18">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F8508</tstamp>
+    </comp>
+    <comp ref="SW18">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F850E</tstamp>
+    </comp>
+    <comp ref="D19">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F8514</tstamp>
+    </comp>
+    <comp ref="SW19">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F851A</tstamp>
+    </comp>
+    <comp ref="D20">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F8520</tstamp>
+    </comp>
+    <comp ref="SW20">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F8526</tstamp>
+    </comp>
+    <comp ref="D91">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F8694</tstamp>
+    </comp>
+    <comp ref="SW91">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F869A</tstamp>
+    </comp>
+    <comp ref="D92">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F86A0</tstamp>
+    </comp>
+    <comp ref="SW92">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F86A6</tstamp>
+    </comp>
+    <comp ref="D93">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F86AC</tstamp>
+    </comp>
+    <comp ref="SW93">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F86B2</tstamp>
+    </comp>
+    <comp ref="D94">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F86B8</tstamp>
+    </comp>
+    <comp ref="SW94">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F86BE</tstamp>
+    </comp>
+    <comp ref="D95">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F86C4</tstamp>
+    </comp>
+    <comp ref="SW95">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F86CA</tstamp>
+    </comp>
+    <comp ref="D101">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA5190B</tstamp>
+    </comp>
+    <comp ref="SW101">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.25u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA51911</tstamp>
+    </comp>
+    <comp ref="D102">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA51917</tstamp>
+    </comp>
+    <comp ref="SW102">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.25u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA5191D</tstamp>
+    </comp>
+    <comp ref="D201">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA54F6B</tstamp>
+    </comp>
+    <comp ref="SW201">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.50u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA54F71</tstamp>
+    </comp>
+    <comp ref="D301">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA5550B</tstamp>
+    </comp>
+    <comp ref="SW301">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.75u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA55511</tstamp>
+    </comp>
+    <comp ref="D302">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA55517</tstamp>
+    </comp>
+    <comp ref="SW302">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.75u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA5551D</tstamp>
+    </comp>
+    <comp ref="D501">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA5AF0B</tstamp>
+    </comp>
+    <comp ref="SW501">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_2.00u_Vertical_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA5AF11</tstamp>
+    </comp>
+    <comp ref="D502">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA5AF17</tstamp>
+    </comp>
+    <comp ref="SW502">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_2.00u_Vertical_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA5AF1D</tstamp>
+    </comp>
+    <comp ref="D601">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA5B4AB</tstamp>
+    </comp>
+    <comp ref="SW601">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_2.25u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA5B4B1</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9DAF4B</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>Elite-C-keebio</value>
+      <footprint>keebio:Elite-C</footprint>
+      <libsource lib="Elite-C" part="Elite-C-keebio" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6063E458</tstamp>
+    </comp>
+    <comp ref="SW_RST1">
+      <value>SW_PUSH</value>
+      <footprint>foostan:ResetSW</footprint>
+      <libsource lib="ProMicro" part="SW_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB3AFE1</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>MJ-4PP-9</value>
+      <footprint>foostan:MJ-4PP-9</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ProMicro" part="MJ-4PP-9" description="4-pin (audio) jack receptable (stereo + 4th pin/TRRS connector), compatible with PJ320A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FBAD2C1</tstamp>
+    </comp>
+    <comp ref="H_data0">
+      <value>MountingHole_Pad</value>
+      <footprint>foostan:1pin_conn</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600D87E6</tstamp>
+    </comp>
+    <comp ref="H_data1">
+      <value>MountingHole_Pad</value>
+      <footprint>foostan:1pin_conn</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600D8892</tstamp>
+    </comp>
+    <comp ref="H_M0">
+      <value>MountingHole_Pad</value>
+      <footprint>foostan:1pin_conn</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600D8CCD</tstamp>
+    </comp>
+    <comp ref="H_M1">
+      <value>MountingHole_Pad</value>
+      <footprint>foostan:1pin_conn</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600D8EF3</tstamp>
+    </comp>
+    <comp ref="H_VCC1">
+      <value>MountingHole_Pad</value>
+      <footprint>foostan:1pin_conn</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601A6EBA</tstamp>
+    </comp>
+    <comp ref="H_GND1">
+      <value>MountingHole_Pad</value>
+      <footprint>foostan:1pin_conn</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601AB8BC</tstamp>
+    </comp>
+    <comp ref="D41">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F58CC</tstamp>
+    </comp>
+    <comp ref="SW41">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F58D2</tstamp>
+    </comp>
+    <comp ref="D42">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F58D8</tstamp>
+    </comp>
+    <comp ref="SW42">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F58DE</tstamp>
+    </comp>
+    <comp ref="D43">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F58E4</tstamp>
+    </comp>
+    <comp ref="SW43">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F58EA</tstamp>
+    </comp>
+    <comp ref="D44">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F58F0</tstamp>
+    </comp>
+    <comp ref="SW44">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F58F6</tstamp>
+    </comp>
+    <comp ref="D45">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F58FC</tstamp>
+    </comp>
+    <comp ref="SW45">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F5902</tstamp>
+    </comp>
+    <comp ref="D46">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F5908</tstamp>
+    </comp>
+    <comp ref="SW46">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F590E</tstamp>
+    </comp>
+    <comp ref="D47">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F5914</tstamp>
+    </comp>
+    <comp ref="SW47">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F591A</tstamp>
+    </comp>
+    <comp ref="D48">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F5920</tstamp>
+    </comp>
+    <comp ref="SW48">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F5926</tstamp>
+    </comp>
+    <comp ref="D49">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F592C</tstamp>
+    </comp>
+    <comp ref="SW49">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F5932</tstamp>
+    </comp>
+    <comp ref="D50">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F5938</tstamp>
+    </comp>
+    <comp ref="SW50">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F593E</tstamp>
+    </comp>
+    <comp ref="D61">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F5944</tstamp>
+    </comp>
+    <comp ref="SW61">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F594A</tstamp>
+    </comp>
+    <comp ref="D62">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F5950</tstamp>
+    </comp>
+    <comp ref="SW62">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F5956</tstamp>
+    </comp>
+    <comp ref="D63">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F595C</tstamp>
+    </comp>
+    <comp ref="SW63">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F5962</tstamp>
+    </comp>
+    <comp ref="D64">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F5968</tstamp>
+    </comp>
+    <comp ref="SW64">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F596E</tstamp>
+    </comp>
+    <comp ref="D65">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F5974</tstamp>
+    </comp>
+    <comp ref="SW65">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F597A</tstamp>
+    </comp>
+    <comp ref="D66">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F5980</tstamp>
+    </comp>
+    <comp ref="SW66">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F5986</tstamp>
+    </comp>
+    <comp ref="D67">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F598C</tstamp>
+    </comp>
+    <comp ref="SW67">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F5992</tstamp>
+    </comp>
+    <comp ref="D68">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F5998</tstamp>
+    </comp>
+    <comp ref="SW68">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F599E</tstamp>
+    </comp>
+    <comp ref="D69">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F59A4</tstamp>
+    </comp>
+    <comp ref="SW69">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F59AA</tstamp>
+    </comp>
+    <comp ref="D70">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F59B0</tstamp>
+    </comp>
+    <comp ref="SW70">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F59B6</tstamp>
+    </comp>
+    <comp ref="D81">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F6560</tstamp>
+    </comp>
+    <comp ref="SW81">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F6566</tstamp>
+    </comp>
+    <comp ref="D82">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F656C</tstamp>
+    </comp>
+    <comp ref="SW82">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F6572</tstamp>
+    </comp>
+    <comp ref="D83">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F6578</tstamp>
+    </comp>
+    <comp ref="SW83">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F657E</tstamp>
+    </comp>
+    <comp ref="D84">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F6584</tstamp>
+    </comp>
+    <comp ref="SW84">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F658A</tstamp>
+    </comp>
+    <comp ref="D85">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F6590</tstamp>
+    </comp>
+    <comp ref="SW85">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F6596</tstamp>
+    </comp>
+    <comp ref="D31">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F852C</tstamp>
+    </comp>
+    <comp ref="SW31">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F8532</tstamp>
+    </comp>
+    <comp ref="D32">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F8538</tstamp>
+    </comp>
+    <comp ref="SW32">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F853E</tstamp>
+    </comp>
+    <comp ref="D33">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F8544</tstamp>
+    </comp>
+    <comp ref="SW33">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F854A</tstamp>
+    </comp>
+    <comp ref="D34">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F8550</tstamp>
+    </comp>
+    <comp ref="SW34">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F8556</tstamp>
+    </comp>
+    <comp ref="D35">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F855C</tstamp>
+    </comp>
+    <comp ref="SW35">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F8562</tstamp>
+    </comp>
+    <comp ref="D36">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F8568</tstamp>
+    </comp>
+    <comp ref="SW36">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F856E</tstamp>
+    </comp>
+    <comp ref="D37">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F8574</tstamp>
+    </comp>
+    <comp ref="SW37">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F857A</tstamp>
+    </comp>
+    <comp ref="D38">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F8580</tstamp>
+    </comp>
+    <comp ref="SW38">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F8586</tstamp>
+    </comp>
+    <comp ref="D39">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F858C</tstamp>
+    </comp>
+    <comp ref="SW39">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F8592</tstamp>
+    </comp>
+    <comp ref="D40">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F8598</tstamp>
+    </comp>
+    <comp ref="SW40">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F859E</tstamp>
+    </comp>
+    <comp ref="D51">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F85A4</tstamp>
+    </comp>
+    <comp ref="SW51">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F85AA</tstamp>
+    </comp>
+    <comp ref="D52">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F85B0</tstamp>
+    </comp>
+    <comp ref="SW52">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F85B6</tstamp>
+    </comp>
+    <comp ref="D53">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F85BC</tstamp>
+    </comp>
+    <comp ref="SW53">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F85C2</tstamp>
+    </comp>
+    <comp ref="D54">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F85C8</tstamp>
+    </comp>
+    <comp ref="SW54">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F85CE</tstamp>
+    </comp>
+    <comp ref="D55">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F85D4</tstamp>
+    </comp>
+    <comp ref="SW55">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F85DA</tstamp>
+    </comp>
+    <comp ref="D56">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F85E0</tstamp>
+    </comp>
+    <comp ref="SW56">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F85E6</tstamp>
+    </comp>
+    <comp ref="D57">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F85EC</tstamp>
+    </comp>
+    <comp ref="SW57">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F85F2</tstamp>
+    </comp>
+    <comp ref="D58">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F85F8</tstamp>
+    </comp>
+    <comp ref="SW58">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F85FE</tstamp>
+    </comp>
+    <comp ref="D59">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F8604</tstamp>
+    </comp>
+    <comp ref="SW59">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F860A</tstamp>
+    </comp>
+    <comp ref="D60">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F8610</tstamp>
+    </comp>
+    <comp ref="SW60">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F8616</tstamp>
+    </comp>
+    <comp ref="D71">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F861C</tstamp>
+    </comp>
+    <comp ref="SW71">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F8622</tstamp>
+    </comp>
+    <comp ref="D72">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F8628</tstamp>
+    </comp>
+    <comp ref="SW72">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F862E</tstamp>
+    </comp>
+    <comp ref="D73">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F8634</tstamp>
+    </comp>
+    <comp ref="SW73">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F863A</tstamp>
+    </comp>
+    <comp ref="D74">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F8640</tstamp>
+    </comp>
+    <comp ref="SW74">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F8646</tstamp>
+    </comp>
+    <comp ref="D75">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F864C</tstamp>
+    </comp>
+    <comp ref="SW75">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F8652</tstamp>
+    </comp>
+    <comp ref="D76">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F8658</tstamp>
+    </comp>
+    <comp ref="SW76">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F865E</tstamp>
+    </comp>
+    <comp ref="D77">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F8664</tstamp>
+    </comp>
+    <comp ref="SW77">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F866A</tstamp>
+    </comp>
+    <comp ref="D78">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F8670</tstamp>
+    </comp>
+    <comp ref="SW78">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F8676</tstamp>
+    </comp>
+    <comp ref="D79">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F867C</tstamp>
+    </comp>
+    <comp ref="SW79">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F8682</tstamp>
+    </comp>
+    <comp ref="D80">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F8688</tstamp>
+    </comp>
+    <comp ref="SW80">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F868E</tstamp>
+    </comp>
+    <comp ref="D103">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA51923</tstamp>
+    </comp>
+    <comp ref="SW103">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.25u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA51929</tstamp>
+    </comp>
+    <comp ref="D104">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA5192F</tstamp>
+    </comp>
+    <comp ref="SW104">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.25u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA51935</tstamp>
+    </comp>
+    <comp ref="D105">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA5193B</tstamp>
+    </comp>
+    <comp ref="SW105">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.25u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA51941</tstamp>
+    </comp>
+    <comp ref="D202">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA54F77</tstamp>
+    </comp>
+    <comp ref="SW202">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.50u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA54F7D</tstamp>
+    </comp>
+    <comp ref="D503">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA5AF23</tstamp>
+    </comp>
+    <comp ref="SW503">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_2.00u_Vertical_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA5AF29</tstamp>
+    </comp>
+    <comp ref="SW901">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_ISOEnter_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA5F831</tstamp>
+    </comp>
+    <comp ref="D901">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA5F82B</tstamp>
+    </comp>
+    <comp ref="SW303">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_Keyboard:SW_Cherry_MX_1.75u_Plate</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE16B9B</tstamp>
+    </comp>
+    <comp ref="H_data2">
+      <value>MountingHole_Pad</value>
+      <footprint>foostan:1pin_conn</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6017D5A0</tstamp>
+    </comp>
+    <comp ref="H_data3">
+      <value>MountingHole_Pad</value>
+      <footprint>foostan:1pin_conn</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6017D5A6</tstamp>
+    </comp>
+    <comp ref="H_M2">
+      <value>MountingHole_Pad</value>
+      <footprint>foostan:1pin_conn</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6017D5AC</tstamp>
+    </comp>
+    <comp ref="H_M3">
+      <value>MountingHole_Pad</value>
+      <footprint>foostan:1pin_conn</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6017D5B2</tstamp>
+    </comp>
+    <comp ref="H_VCC2">
+      <value>MountingHole_Pad</value>
+      <footprint>foostan:1pin_conn</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6020388C</tstamp>
+    </comp>
+    <comp ref="H_GND2">
+      <value>MountingHole_Pad</value>
+      <footprint>foostan:1pin_conn</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6022EBB3</tstamp>
+    </comp>
+    <comp ref="D303">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE16B95</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>MJ-4PP-9</value>
+      <footprint>foostan:MJ-4PP-9</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="ProMicro" part="MJ-4PP-9" description="4-pin (audio) jack receptable (stereo + 4th pin/TRRS connector), compatible with PJ320A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF93E13</tstamp>
+    </comp>
+    <comp ref="SW_RST2">
+      <value>SW_PUSH</value>
+      <footprint>foostan:ResetSW</footprint>
+      <libsource lib="ProMicro" part="SW_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF93E03</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>Elite-C-keebio</value>
+      <footprint>keebio:Elite-C</footprint>
+      <libsource lib="Elite-C" part="Elite-C-keebio" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60640990</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Elite-C" part="Elite-C-keebio">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Elite-C-keebio</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TX0/PD3" type="input"/>
+        <pin num="2" name="RX1/PD2" type="input"/>
+        <pin num="3" name="GND" type="input"/>
+        <pin num="4" name="GND" type="input"/>
+        <pin num="5" name="2/PD1" type="input"/>
+        <pin num="6" name="3/PD0" type="input"/>
+        <pin num="7" name="4/PD4" type="input"/>
+        <pin num="8" name="5/PC6" type="input"/>
+        <pin num="9" name="6/PD7" type="input"/>
+        <pin num="10" name="7/PE6" type="input"/>
+        <pin num="11" name="8/PB4" type="input"/>
+        <pin num="12" name="9/PB5" type="input"/>
+        <pin num="13" name="10/PB6" type="input"/>
+        <pin num="14" name="16/PB2" type="input"/>
+        <pin num="15" name="14/PB3" type="input"/>
+        <pin num="16" name="15/PB1" type="input"/>
+        <pin num="17" name="A0/PF7" type="input"/>
+        <pin num="18" name="A1/PF6" type="input"/>
+        <pin num="19" name="A2/PF5" type="input"/>
+        <pin num="20" name="A3/PF4" type="input"/>
+        <pin num="21" name="VCC" type="input"/>
+        <pin num="22" name="RST" type="input"/>
+        <pin num="23" name="GND" type="input"/>
+        <pin num="24" name="B0" type="input"/>
+        <pin num="25" name="B7" type="input"/>
+        <pin num="26" name="D5" type="input"/>
+        <pin num="27" name="C7" type="input"/>
+        <pin num="28" name="F1" type="input"/>
+        <pin num="29" name="F0" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="ProMicro" part="MJ-4PP-9">
+      <description>4-pin (audio) jack receptable (stereo + 4th pin/TRRS connector), compatible with PJ320A</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">MJ-4PP-9</field>
+      </fields>
+      <pins>
+        <pin num="A" name="~" type="input"/>
+        <pin num="B" name="~" type="input"/>
+        <pin num="C" name="~" type="input"/>
+        <pin num="D" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="ProMicro" part="SW_PUSH">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pspice" part="DIODE">
+      <description>Diode symbol for simulation only. Pin order incompatible with official kicad footprints</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="input"/>
+        <pin num="2" name="A" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Elite-C">
+      <uri>C:/Users/yellow/Documents/kicad/tmpl/keyboard-layouter-playground-rescue.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
+    <library logical="ProMicro">
+      <uri>C:\Program Files\KiCad\share\kicad\library/kbd.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Switch.lib</uri>
+    </library>
+    <library logical="pspice">
+      <uri>C:\Program Files\KiCad\share\kicad\library/pspice.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D40-Pad1)">
+      <node ref="D40" pin="1"/>
+      <node ref="SW40" pin="2"/>
+    </net>
+    <net code="2" name="Net-(D52-Pad1)">
+      <node ref="D52" pin="1"/>
+      <node ref="SW52" pin="2"/>
+    </net>
+    <net code="3" name="Net-(D51-Pad1)">
+      <node ref="SW51" pin="2"/>
+      <node ref="D51" pin="1"/>
+    </net>
+    <net code="4" name="Net-(D36-Pad1)">
+      <node ref="D36" pin="1"/>
+      <node ref="SW36" pin="2"/>
+    </net>
+    <net code="5" name="Net-(D35-Pad1)">
+      <node ref="SW35" pin="2"/>
+      <node ref="D35" pin="1"/>
+    </net>
+    <net code="6" name="Net-(D39-Pad1)">
+      <node ref="D39" pin="1"/>
+      <node ref="SW39" pin="2"/>
+    </net>
+    <net code="7" name="Net-(D38-Pad1)">
+      <node ref="SW38" pin="2"/>
+      <node ref="D38" pin="1"/>
+    </net>
+    <net code="8" name="Net-(D53-Pad1)">
+      <node ref="SW53" pin="2"/>
+      <node ref="D53" pin="1"/>
+    </net>
+    <net code="9" name="Net-(D37-Pad1)">
+      <node ref="D37" pin="1"/>
+      <node ref="SW37" pin="2"/>
+    </net>
+    <net code="10" name="Net-(D59-Pad1)">
+      <node ref="SW59" pin="2"/>
+      <node ref="D59" pin="1"/>
+    </net>
+    <net code="11" name="Net-(D72-Pad1)">
+      <node ref="D72" pin="1"/>
+      <node ref="SW72" pin="2"/>
+    </net>
+    <net code="12" name="Net-(D58-Pad1)">
+      <node ref="D58" pin="1"/>
+      <node ref="SW58" pin="2"/>
+    </net>
+    <net code="13" name="Net-(D71-Pad1)">
+      <node ref="D71" pin="1"/>
+      <node ref="SW71" pin="2"/>
+    </net>
+    <net code="14" name="Net-(D60-Pad1)">
+      <node ref="SW60" pin="2"/>
+      <node ref="D60" pin="1"/>
+    </net>
+    <net code="15" name="Net-(D55-Pad1)">
+      <node ref="D55" pin="1"/>
+      <node ref="SW55" pin="2"/>
+    </net>
+    <net code="16" name="Net-(D54-Pad1)">
+      <node ref="D54" pin="1"/>
+      <node ref="SW54" pin="2"/>
+    </net>
+    <net code="17" name="Net-(D57-Pad1)">
+      <node ref="SW57" pin="2"/>
+      <node ref="D57" pin="1"/>
+    </net>
+    <net code="18" name="Net-(D56-Pad1)">
+      <node ref="SW56" pin="2"/>
+      <node ref="D56" pin="1"/>
+    </net>
+    <net code="19" name="Net-(D65-Pad1)">
+      <node ref="SW65" pin="2"/>
+      <node ref="D65" pin="1"/>
+    </net>
+    <net code="20" name="Net-(D64-Pad1)">
+      <node ref="SW64" pin="2"/>
+      <node ref="D64" pin="1"/>
+    </net>
+    <net code="21" name="Net-(D67-Pad1)">
+      <node ref="SW67" pin="2"/>
+      <node ref="D67" pin="1"/>
+    </net>
+    <net code="22" name="Net-(D66-Pad1)">
+      <node ref="D66" pin="1"/>
+      <node ref="SW66" pin="2"/>
+    </net>
+    <net code="23" name="Net-(D50-Pad1)">
+      <node ref="SW50" pin="2"/>
+      <node ref="D50" pin="1"/>
+    </net>
+    <net code="24" name="Net-(D49-Pad1)">
+      <node ref="D49" pin="1"/>
+      <node ref="SW49" pin="2"/>
+    </net>
+    <net code="25" name="Net-(D48-Pad1)">
+      <node ref="D48" pin="1"/>
+      <node ref="SW48" pin="2"/>
+    </net>
+    <net code="26" name="Net-(D63-Pad1)">
+      <node ref="D63" pin="1"/>
+      <node ref="SW63" pin="2"/>
+    </net>
+    <net code="27" name="Net-(D62-Pad1)">
+      <node ref="SW62" pin="2"/>
+      <node ref="D62" pin="1"/>
+    </net>
+    <net code="28" name="Net-(D61-Pad1)">
+      <node ref="SW61" pin="2"/>
+      <node ref="D61" pin="1"/>
+    </net>
+    <net code="29" name="Net-(D31-Pad1)">
+      <node ref="SW31" pin="2"/>
+      <node ref="D31" pin="1"/>
+    </net>
+    <net code="30" name="Net-(D85-Pad1)">
+      <node ref="D85" pin="1"/>
+      <node ref="SW85" pin="2"/>
+    </net>
+    <net code="31" name="Net-(D34-Pad1)">
+      <node ref="SW34" pin="2"/>
+      <node ref="D34" pin="1"/>
+    </net>
+    <net code="32" name="Net-(D84-Pad1)">
+      <node ref="SW84" pin="2"/>
+      <node ref="D84" pin="1"/>
+    </net>
+    <net code="33" name="Net-(D33-Pad1)">
+      <node ref="SW33" pin="2"/>
+      <node ref="D33" pin="1"/>
+    </net>
+    <net code="34" name="Net-(D32-Pad1)">
+      <node ref="SW32" pin="2"/>
+      <node ref="D32" pin="1"/>
+    </net>
+    <net code="35" name="Net-(D70-Pad1)">
+      <node ref="SW70" pin="2"/>
+      <node ref="D70" pin="1"/>
+    </net>
+    <net code="36" name="Net-(D69-Pad1)">
+      <node ref="SW69" pin="2"/>
+      <node ref="D69" pin="1"/>
+    </net>
+    <net code="37" name="Net-(D68-Pad1)">
+      <node ref="D68" pin="1"/>
+      <node ref="SW68" pin="2"/>
+    </net>
+    <net code="38" name="Net-(D83-Pad1)">
+      <node ref="D83" pin="1"/>
+      <node ref="SW83" pin="2"/>
+    </net>
+    <net code="39" name="Net-(D82-Pad1)">
+      <node ref="SW82" pin="2"/>
+      <node ref="D82" pin="1"/>
+    </net>
+    <net code="40" name="Net-(D81-Pad1)">
+      <node ref="SW81" pin="2"/>
+      <node ref="D81" pin="1"/>
+    </net>
+    <net code="41" name="Net-(D303-Pad1)">
+      <node ref="D303" pin="1"/>
+      <node ref="SW303" pin="2"/>
+    </net>
+    <net code="42" name="Net-(D73-Pad1)">
+      <node ref="SW73" pin="2"/>
+      <node ref="D73" pin="1"/>
+    </net>
+    <net code="43" name="Net-(D80-Pad1)">
+      <node ref="SW80" pin="2"/>
+      <node ref="D80" pin="1"/>
+    </net>
+    <net code="44" name="data2">
+      <node ref="U2" pin="1"/>
+      <node ref="H_data2" pin="1"/>
+    </net>
+    <net code="45" name="data0">
+      <node ref="J1" pin="B"/>
+      <node ref="H_data0" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="J2" pin="B"/>
+    </net>
+    <net code="46" name="Net-(J2-PadA)">
+      <node ref="J2" pin="A"/>
+    </net>
+    <net code="47" name="Net-(SW_RST2-Pad1)">
+      <node ref="U2" pin="22"/>
+      <node ref="SW_RST2" pin="1"/>
+    </net>
+    <net code="48" name="data1">
+      <node ref="H_data1" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="J1" pin="A"/>
+    </net>
+    <net code="49" name="Net-(D77-Pad1)">
+      <node ref="D77" pin="1"/>
+      <node ref="SW77" pin="2"/>
+    </net>
+    <net code="50" name="Net-(D75-Pad1)">
+      <node ref="D75" pin="1"/>
+      <node ref="SW75" pin="2"/>
+    </net>
+    <net code="51" name="Net-(D202-Pad1)">
+      <node ref="SW202" pin="2"/>
+      <node ref="D202" pin="1"/>
+    </net>
+    <net code="52" name="Net-(D105-Pad1)">
+      <node ref="SW105" pin="2"/>
+      <node ref="D105" pin="1"/>
+    </net>
+    <net code="53" name="Net-(D104-Pad1)">
+      <node ref="D104" pin="1"/>
+      <node ref="SW104" pin="2"/>
+    </net>
+    <net code="54" name="Net-(D76-Pad1)">
+      <node ref="SW76" pin="2"/>
+      <node ref="D76" pin="1"/>
+    </net>
+    <net code="55" name="Net-(D503-Pad1)">
+      <node ref="SW503" pin="2"/>
+      <node ref="D503" pin="1"/>
+    </net>
+    <net code="56" name="Net-(D74-Pad1)">
+      <node ref="SW74" pin="2"/>
+      <node ref="D74" pin="1"/>
+    </net>
+    <net code="57" name="Net-(D79-Pad1)">
+      <node ref="D79" pin="1"/>
+      <node ref="SW79" pin="2"/>
+    </net>
+    <net code="58" name="Net-(D78-Pad1)">
+      <node ref="D78" pin="1"/>
+      <node ref="SW78" pin="2"/>
+    </net>
+    <net code="59" name="GND">
+      <node ref="SW_RST2" pin="2"/>
+      <node ref="J2" pin="C"/>
+      <node ref="J1" pin="C"/>
+      <node ref="H_GND2" pin="1"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U2" pin="3"/>
+      <node ref="U2" pin="23"/>
+      <node ref="SW_RST1" pin="2"/>
+      <node ref="U1" pin="23"/>
+      <node ref="H_GND1" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="60" name="VCC">
+      <node ref="H_VCC2" pin="1"/>
+      <node ref="U1" pin="21"/>
+      <node ref="J1" pin="D"/>
+      <node ref="H_VCC1" pin="1"/>
+      <node ref="U2" pin="21"/>
+      <node ref="J2" pin="D"/>
+    </net>
+    <net code="61" name="Net-(D103-Pad1)">
+      <node ref="SW103" pin="2"/>
+      <node ref="D103" pin="1"/>
+    </net>
+    <net code="62" name="COL14">
+      <node ref="SW47" pin="1"/>
+      <node ref="SW59" pin="1"/>
+      <node ref="SW35" pin="1"/>
+      <node ref="U2" pin="9"/>
+      <node ref="SW76" pin="1"/>
+      <node ref="SW81" pin="1"/>
+      <node ref="SW69" pin="1"/>
+    </net>
+    <net code="63" name="COL13">
+      <node ref="SW75" pin="1"/>
+      <node ref="U2" pin="8"/>
+      <node ref="SW46" pin="1"/>
+      <node ref="SW68" pin="1"/>
+      <node ref="SW105" pin="1"/>
+      <node ref="SW58" pin="1"/>
+    </net>
+    <net code="64" name="COL12">
+      <node ref="SW34" pin="1"/>
+      <node ref="SW45" pin="1"/>
+      <node ref="U2" pin="7"/>
+      <node ref="SW74" pin="1"/>
+      <node ref="SW57" pin="1"/>
+      <node ref="SW67" pin="1"/>
+    </net>
+    <net code="65" name="COL11">
+      <node ref="U2" pin="6"/>
+      <node ref="SW104" pin="1"/>
+      <node ref="SW56" pin="1"/>
+      <node ref="SW73" pin="1"/>
+      <node ref="SW33" pin="1"/>
+      <node ref="SW66" pin="1"/>
+      <node ref="SW44" pin="1"/>
+    </net>
+    <net code="66" name="COL10">
+      <node ref="SW103" pin="1"/>
+      <node ref="SW32" pin="1"/>
+      <node ref="SW72" pin="1"/>
+      <node ref="U2" pin="5"/>
+      <node ref="SW55" pin="1"/>
+      <node ref="SW65" pin="1"/>
+      <node ref="SW43" pin="1"/>
+    </net>
+    <net code="67" name="row12">
+      <node ref="U2" pin="29"/>
+      <node ref="D81" pin="2"/>
+      <node ref="D84" pin="2"/>
+      <node ref="D83" pin="2"/>
+      <node ref="D503" pin="2"/>
+      <node ref="D202" pin="2"/>
+      <node ref="D82" pin="2"/>
+      <node ref="D104" pin="2"/>
+      <node ref="D105" pin="2"/>
+      <node ref="D103" pin="2"/>
+      <node ref="D85" pin="2"/>
+    </net>
+    <net code="68" name="row11">
+      <node ref="D72" pin="2"/>
+      <node ref="D71" pin="2"/>
+      <node ref="D73" pin="2"/>
+      <node ref="D75" pin="2"/>
+      <node ref="D74" pin="2"/>
+      <node ref="D76" pin="2"/>
+      <node ref="U2" pin="28"/>
+      <node ref="D303" pin="2"/>
+      <node ref="D77" pin="2"/>
+    </net>
+    <net code="69" name="COL20">
+      <node ref="SW41" pin="1"/>
+      <node ref="U2" pin="27"/>
+      <node ref="SW80" pin="1"/>
+      <node ref="SW85" pin="1"/>
+      <node ref="SW53" pin="1"/>
+      <node ref="SW63" pin="1"/>
+    </net>
+    <net code="70" name="COL19">
+      <node ref="SW62" pin="1"/>
+      <node ref="SW40" pin="1"/>
+      <node ref="SW84" pin="1"/>
+      <node ref="SW79" pin="1"/>
+      <node ref="U2" pin="26"/>
+      <node ref="SW52" pin="1"/>
+    </net>
+    <net code="71" name="COL18">
+      <node ref="SW39" pin="1"/>
+      <node ref="SW83" pin="1"/>
+      <node ref="SW61" pin="1"/>
+      <node ref="SW51" pin="1"/>
+      <node ref="SW78" pin="1"/>
+      <node ref="U2" pin="25"/>
+    </net>
+    <net code="72" name="COL9">
+      <node ref="SW31" pin="1"/>
+      <node ref="SW503" pin="1"/>
+      <node ref="SW71" pin="1"/>
+      <node ref="U2" pin="24"/>
+      <node ref="SW54" pin="1"/>
+      <node ref="SW42" pin="1"/>
+      <node ref="SW64" pin="1"/>
+    </net>
+    <net code="73" name="Net-(U2-Pad18)">
+      <node ref="U2" pin="18"/>
+    </net>
+    <net code="74" name="Net-(U2-Pad17)">
+      <node ref="U2" pin="17"/>
+    </net>
+    <net code="75" name="row10">
+      <node ref="D68" pin="2"/>
+      <node ref="D67" pin="2"/>
+      <node ref="D64" pin="2"/>
+      <node ref="D65" pin="2"/>
+      <node ref="D66" pin="2"/>
+      <node ref="D901" pin="2"/>
+      <node ref="D78" pin="2"/>
+      <node ref="D80" pin="2"/>
+      <node ref="D79" pin="2"/>
+      <node ref="D70" pin="2"/>
+      <node ref="U2" pin="13"/>
+      <node ref="D69" pin="2"/>
+    </net>
+    <net code="76" name="M2">
+      <node ref="U2" pin="20"/>
+      <node ref="H_M2" pin="1"/>
+    </net>
+    <net code="77" name="data3">
+      <node ref="U2" pin="2"/>
+      <node ref="H_data3" pin="1"/>
+    </net>
+    <net code="78" name="M3">
+      <node ref="U2" pin="19"/>
+      <node ref="H_M3" pin="1"/>
+    </net>
+    <net code="79" name="row7">
+      <node ref="D40" pin="2"/>
+      <node ref="D31" pin="2"/>
+      <node ref="U2" pin="16"/>
+      <node ref="D38" pin="2"/>
+      <node ref="D32" pin="2"/>
+      <node ref="D35" pin="2"/>
+      <node ref="D41" pin="2"/>
+      <node ref="D34" pin="2"/>
+      <node ref="D37" pin="2"/>
+      <node ref="D33" pin="2"/>
+      <node ref="D36" pin="2"/>
+      <node ref="D39" pin="2"/>
+    </net>
+    <net code="80" name="row8">
+      <node ref="D47" pin="2"/>
+      <node ref="D44" pin="2"/>
+      <node ref="D48" pin="2"/>
+      <node ref="D42" pin="2"/>
+      <node ref="D46" pin="2"/>
+      <node ref="D45" pin="2"/>
+      <node ref="D43" pin="2"/>
+      <node ref="D49" pin="2"/>
+      <node ref="U2" pin="15"/>
+      <node ref="D50" pin="2"/>
+      <node ref="D52" pin="2"/>
+      <node ref="D51" pin="2"/>
+      <node ref="D53" pin="2"/>
+    </net>
+    <net code="81" name="row9">
+      <node ref="D54" pin="2"/>
+      <node ref="D61" pin="2"/>
+      <node ref="D55" pin="2"/>
+      <node ref="U2" pin="14"/>
+      <node ref="D62" pin="2"/>
+      <node ref="D63" pin="2"/>
+      <node ref="D57" pin="2"/>
+      <node ref="D56" pin="2"/>
+      <node ref="D59" pin="2"/>
+      <node ref="D60" pin="2"/>
+      <node ref="D58" pin="2"/>
+    </net>
+    <net code="82" name="COL17">
+      <node ref="SW50" pin="1"/>
+      <node ref="SW38" pin="1"/>
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="83" name="COL16">
+      <node ref="SW37" pin="1"/>
+      <node ref="SW49" pin="1"/>
+      <node ref="SW202" pin="1"/>
+      <node ref="U2" pin="11"/>
+      <node ref="SW901" pin="1"/>
+      <node ref="SW303" pin="1"/>
+    </net>
+    <net code="84" name="COL15">
+      <node ref="SW36" pin="1"/>
+      <node ref="SW77" pin="1"/>
+      <node ref="U2" pin="10"/>
+      <node ref="SW48" pin="1"/>
+      <node ref="SW60" pin="1"/>
+      <node ref="SW82" pin="1"/>
+      <node ref="SW70" pin="1"/>
+    </net>
+    <net code="85" name="Net-(D45-Pad1)">
+      <node ref="SW45" pin="2"/>
+      <node ref="D45" pin="1"/>
+    </net>
+    <net code="86" name="Net-(D44-Pad1)">
+      <node ref="D44" pin="1"/>
+      <node ref="SW44" pin="2"/>
+    </net>
+    <net code="87" name="Net-(D43-Pad1)">
+      <node ref="D43" pin="1"/>
+      <node ref="SW43" pin="2"/>
+    </net>
+    <net code="88" name="Net-(D42-Pad1)">
+      <node ref="SW42" pin="2"/>
+      <node ref="D42" pin="1"/>
+    </net>
+    <net code="89" name="Net-(D46-Pad1)">
+      <node ref="D46" pin="1"/>
+      <node ref="SW46" pin="2"/>
+    </net>
+    <net code="90" name="Net-(D901-Pad1)">
+      <node ref="SW901" pin="2"/>
+      <node ref="D901" pin="1"/>
+    </net>
+    <net code="91" name="Net-(D41-Pad1)">
+      <node ref="D41" pin="1"/>
+      <node ref="SW41" pin="2"/>
+    </net>
+    <net code="92" name="Net-(D47-Pad1)">
+      <node ref="D47" pin="1"/>
+      <node ref="SW47" pin="2"/>
+    </net>
+    <net code="93" name="Net-(D8-Pad1)">
+      <node ref="D8" pin="1"/>
+      <node ref="SW8" pin="2"/>
+    </net>
+    <net code="94" name="Net-(D13-Pad1)">
+      <node ref="D13" pin="1"/>
+      <node ref="SW13" pin="2"/>
+    </net>
+    <net code="95" name="Net-(D12-Pad1)">
+      <node ref="SW12" pin="2"/>
+      <node ref="D12" pin="1"/>
+    </net>
+    <net code="96" name="Net-(D11-Pad1)">
+      <node ref="D11" pin="1"/>
+      <node ref="SW11" pin="2"/>
+    </net>
+    <net code="97" name="Net-(D7-Pad1)">
+      <node ref="SW7" pin="2"/>
+      <node ref="D7" pin="1"/>
+    </net>
+    <net code="98" name="Net-(D6-Pad1)">
+      <node ref="D6" pin="1"/>
+      <node ref="SW6" pin="2"/>
+    </net>
+    <net code="99" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1"/>
+      <node ref="SW5" pin="2"/>
+    </net>
+    <net code="100" name="Net-(D4-Pad1)">
+      <node ref="SW4" pin="2"/>
+      <node ref="D4" pin="1"/>
+    </net>
+    <net code="101" name="Net-(D10-Pad1)">
+      <node ref="SW10" pin="2"/>
+      <node ref="D10" pin="1"/>
+    </net>
+    <net code="102" name="Net-(D9-Pad1)">
+      <node ref="D9" pin="1"/>
+      <node ref="SW9" pin="2"/>
+    </net>
+    <net code="103" name="Net-(D14-Pad1)">
+      <node ref="D14" pin="1"/>
+      <node ref="SW14" pin="2"/>
+    </net>
+    <net code="104" name="Net-(D501-Pad1)">
+      <node ref="SW501" pin="2"/>
+      <node ref="D501" pin="1"/>
+    </net>
+    <net code="105" name="Net-(D3-Pad1)">
+      <node ref="SW3" pin="2"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="106" name="Net-(D2-Pad1)">
+      <node ref="SW2" pin="2"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="107" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="108" name="Net-(D301-Pad1)">
+      <node ref="SW301" pin="2"/>
+      <node ref="D301" pin="1"/>
+    </net>
+    <net code="109" name="Net-(D91-Pad1)">
+      <node ref="SW91" pin="2"/>
+      <node ref="D91" pin="1"/>
+    </net>
+    <net code="110" name="Net-(D90-Pad1)">
+      <node ref="D90" pin="1"/>
+      <node ref="SW90" pin="2"/>
+    </net>
+    <net code="111" name="Net-(D20-Pad1)">
+      <node ref="SW20" pin="2"/>
+      <node ref="D20" pin="1"/>
+    </net>
+    <net code="112" name="Net-(D19-Pad1)">
+      <node ref="SW19" pin="2"/>
+      <node ref="D19" pin="1"/>
+    </net>
+    <net code="113" name="Net-(D25-Pad1)">
+      <node ref="SW25" pin="2"/>
+      <node ref="D25" pin="1"/>
+    </net>
+    <net code="114" name="Net-(D24-Pad1)">
+      <node ref="SW24" pin="2"/>
+      <node ref="D24" pin="1"/>
+    </net>
+    <net code="115" name="Net-(D23-Pad1)">
+      <node ref="D23" pin="1"/>
+      <node ref="SW23" pin="2"/>
+    </net>
+    <net code="116" name="Net-(D22-Pad1)">
+      <node ref="SW22" pin="2"/>
+      <node ref="D22" pin="1"/>
+    </net>
+    <net code="117" name="Net-(D21-Pad1)">
+      <node ref="D21" pin="1"/>
+      <node ref="SW21" pin="2"/>
+    </net>
+    <net code="118" name="Net-(D18-Pad1)">
+      <node ref="D18" pin="1"/>
+      <node ref="SW18" pin="2"/>
+    </net>
+    <net code="119" name="Net-(D17-Pad1)">
+      <node ref="SW17" pin="2"/>
+      <node ref="D17" pin="1"/>
+    </net>
+    <net code="120" name="Net-(D16-Pad1)">
+      <node ref="D16" pin="1"/>
+      <node ref="SW16" pin="2"/>
+    </net>
+    <net code="121" name="Net-(D201-Pad1)">
+      <node ref="SW201" pin="2"/>
+      <node ref="D201" pin="1"/>
+    </net>
+    <net code="122" name="Net-(D89-Pad1)">
+      <node ref="D89" pin="1"/>
+      <node ref="SW89" pin="2"/>
+    </net>
+    <net code="123" name="Net-(D88-Pad1)">
+      <node ref="SW88" pin="2"/>
+      <node ref="D88" pin="1"/>
+    </net>
+    <net code="124" name="Net-(D87-Pad1)">
+      <node ref="SW87" pin="2"/>
+      <node ref="D87" pin="1"/>
+    </net>
+    <net code="125" name="Net-(D15-Pad1)">
+      <node ref="SW15" pin="2"/>
+      <node ref="D15" pin="1"/>
+    </net>
+    <net code="126" name="Net-(D102-Pad1)">
+      <node ref="D102" pin="1"/>
+      <node ref="SW102" pin="2"/>
+    </net>
+    <net code="127" name="Net-(D101-Pad1)">
+      <node ref="SW101" pin="2"/>
+      <node ref="D101" pin="1"/>
+    </net>
+    <net code="128" name="COL3">
+      <node ref="SW301" pin="1"/>
+      <node ref="SW302" pin="1"/>
+      <node ref="U1" pin="7"/>
+      <node ref="SW201" pin="1"/>
+      <node ref="SW3" pin="1"/>
+      <node ref="SW601" pin="1"/>
+      <node ref="SW10" pin="1"/>
+    </net>
+    <net code="129" name="Net-(D601-Pad1)">
+      <node ref="SW601" pin="2"/>
+      <node ref="D601" pin="1"/>
+    </net>
+    <net code="130" name="Net-(D92-Pad1)">
+      <node ref="SW92" pin="2"/>
+      <node ref="D92" pin="1"/>
+    </net>
+    <net code="131" name="Net-(D502-Pad1)">
+      <node ref="SW502" pin="2"/>
+      <node ref="D502" pin="1"/>
+    </net>
+    <net code="132" name="Net-(D302-Pad1)">
+      <node ref="D302" pin="1"/>
+      <node ref="SW302" pin="2"/>
+    </net>
+    <net code="133" name="COL4">
+      <node ref="SW11" pin="1"/>
+      <node ref="SW30" pin="1"/>
+      <node ref="SW21" pin="1"/>
+      <node ref="SW16" pin="1"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="134" name="COL5">
+      <node ref="SW22" pin="1"/>
+      <node ref="SW17" pin="1"/>
+      <node ref="U1" pin="9"/>
+      <node ref="SW26" pin="1"/>
+      <node ref="SW12" pin="1"/>
+      <node ref="SW4" pin="1"/>
+    </net>
+    <net code="135" name="COL2">
+      <node ref="SW89" pin="1"/>
+      <node ref="SW92" pin="1"/>
+      <node ref="SW95" pin="1"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="SW9" pin="1"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="136" name="COL6">
+      <node ref="U1" pin="10"/>
+      <node ref="SW18" pin="1"/>
+      <node ref="SW5" pin="1"/>
+      <node ref="SW27" pin="1"/>
+      <node ref="SW23" pin="1"/>
+      <node ref="SW13" pin="1"/>
+      <node ref="SW101" pin="1"/>
+    </net>
+    <net code="137" name="Net-(D28-Pad1)">
+      <node ref="D28" pin="1"/>
+      <node ref="SW28" pin="2"/>
+    </net>
+    <net code="138" name="COL0">
+      <node ref="SW501" pin="1"/>
+      <node ref="U1" pin="24"/>
+      <node ref="SW93" pin="1"/>
+      <node ref="SW90" pin="1"/>
+      <node ref="SW87" pin="1"/>
+    </net>
+    <net code="139" name="Net-(D29-Pad1)">
+      <node ref="D29" pin="1"/>
+      <node ref="SW29" pin="2"/>
+    </net>
+    <net code="140" name="Net-(D27-Pad1)">
+      <node ref="D27" pin="1"/>
+      <node ref="SW27" pin="2"/>
+    </net>
+    <net code="141" name="Net-(D26-Pad1)">
+      <node ref="SW26" pin="2"/>
+      <node ref="D26" pin="1"/>
+    </net>
+    <net code="142" name="Net-(D30-Pad1)">
+      <node ref="D30" pin="1"/>
+      <node ref="SW30" pin="2"/>
+    </net>
+    <net code="143" name="Net-(D95-Pad1)">
+      <node ref="SW95" pin="2"/>
+      <node ref="D95" pin="1"/>
+    </net>
+    <net code="144" name="Net-(D94-Pad1)">
+      <node ref="D94" pin="1"/>
+      <node ref="SW94" pin="2"/>
+    </net>
+    <net code="145" name="Net-(D93-Pad1)">
+      <node ref="D93" pin="1"/>
+      <node ref="SW93" pin="2"/>
+    </net>
+    <net code="146" name="COL1">
+      <node ref="SW94" pin="1"/>
+      <node ref="SW91" pin="1"/>
+      <node ref="SW8" pin="1"/>
+      <node ref="SW88" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="147" name="row1">
+      <node ref="D7" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="D4" pin="2"/>
+      <node ref="D6" pin="2"/>
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="148" name="row6">
+      <node ref="U1" pin="25"/>
+      <node ref="D95" pin="2"/>
+      <node ref="D502" pin="2"/>
+      <node ref="D93" pin="2"/>
+      <node ref="D94" pin="2"/>
+      <node ref="D101" pin="2"/>
+      <node ref="D302" pin="2"/>
+      <node ref="D30" pin="2"/>
+      <node ref="D102" pin="2"/>
+    </net>
+    <net code="149" name="row3">
+      <node ref="D201" pin="2"/>
+      <node ref="U1" pin="14"/>
+      <node ref="D17" pin="2"/>
+      <node ref="D16" pin="2"/>
+      <node ref="D18" pin="2"/>
+      <node ref="D20" pin="2"/>
+      <node ref="D19" pin="2"/>
+    </net>
+    <net code="150" name="row5">
+      <node ref="D92" pin="2"/>
+      <node ref="D91" pin="2"/>
+      <node ref="D90" pin="2"/>
+      <node ref="U1" pin="26"/>
+      <node ref="D601" pin="2"/>
+      <node ref="D28" pin="2"/>
+      <node ref="D29" pin="2"/>
+      <node ref="D27" pin="2"/>
+      <node ref="D26" pin="2"/>
+    </net>
+    <net code="151" name="row4">
+      <node ref="D301" pin="2"/>
+      <node ref="D25" pin="2"/>
+      <node ref="D24" pin="2"/>
+      <node ref="D23" pin="2"/>
+      <node ref="D22" pin="2"/>
+      <node ref="D21" pin="2"/>
+      <node ref="U1" pin="13"/>
+      <node ref="D87" pin="2"/>
+      <node ref="D88" pin="2"/>
+      <node ref="D89" pin="2"/>
+    </net>
+    <net code="152" name="COL8">
+      <node ref="SW25" pin="1"/>
+      <node ref="SW15" pin="1"/>
+      <node ref="SW29" pin="1"/>
+      <node ref="SW7" pin="1"/>
+      <node ref="SW20" pin="1"/>
+      <node ref="SW502" pin="1"/>
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="153" name="COL7">
+      <node ref="SW28" pin="1"/>
+      <node ref="SW6" pin="1"/>
+      <node ref="SW14" pin="1"/>
+      <node ref="SW19" pin="1"/>
+      <node ref="U1" pin="11"/>
+      <node ref="SW102" pin="1"/>
+      <node ref="SW24" pin="1"/>
+    </net>
+    <net code="154" name="row2">
+      <node ref="D501" pin="2"/>
+      <node ref="D11" pin="2"/>
+      <node ref="U1" pin="15"/>
+      <node ref="D8" pin="2"/>
+      <node ref="D9" pin="2"/>
+      <node ref="D10" pin="2"/>
+      <node ref="D12" pin="2"/>
+      <node ref="D13" pin="2"/>
+      <node ref="D14" pin="2"/>
+      <node ref="D15" pin="2"/>
+    </net>
+    <net code="155" name="Net-(U1-Pad18)">
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="156" name="Net-(U1-Pad17)">
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="157" name="Net-(U1-Pad29)">
+      <node ref="U1" pin="29"/>
+    </net>
+    <net code="158" name="Net-(U1-Pad28)">
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="159" name="Net-(U1-Pad27)">
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="160" name="Net-(SW_RST1-Pad1)">
+      <node ref="SW_RST1" pin="1"/>
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="161" name="M1">
+      <node ref="U1" pin="19"/>
+      <node ref="H_M1" pin="1"/>
+    </net>
+    <net code="162" name="M0">
+      <node ref="U1" pin="20"/>
+      <node ref="H_M0" pin="1"/>
+    </net>
+  </nets>
+</export>

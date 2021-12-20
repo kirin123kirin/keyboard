@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name Button_Switch_Keyboard)(type KiCad)(uri ${KIPRJMOD}/kicad-footprints/Button_Switch_Keyboard.pretty)(options "")(descr ""))
+  (lib (name Diode_SMD)(type KiCad)(uri ${KIPRJMOD}/kicad-footprints/Diode_SMD.pretty)(options "")(descr ""))
+  (lib (name foostan)(type KiCad)(uri C:/temp/kbd/foostan/kicad-footprints/kbd.pretty)(options "")(descr ""))
+  (lib (name keebio)(type KiCad)(uri C:/Users/yellow/Documents/kicad/train/tmpl/kicad-footprints/Keebio-Parts.pretty-master)(options "")(descr ""))
+  (lib (name gammy)(type KiCad)(uri C:/Users/yellow/Documents/kicad/train/lib/gammy.pretty)(options "")(descr ""))
+)

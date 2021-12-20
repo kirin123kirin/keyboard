@@ -1,0 +1,773 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title "gammy split"
+Date "2020-11-14"
+Rev "both_r2"
+Comp "Kirin123"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	3400 6125 3400 7675
+Wire Wire Line
+	3400 7675 3400 8475
+Connection ~ 3400 7675
+Wire Wire Line
+	4800 2200 4650 2200
+Wire Wire Line
+	4800 1975 4800 2200
+Wire Wire Line
+	5700 1975 4800 1975
+Wire Wire Line
+	5700 2300 5700 1975
+NoConn ~ 3250 2100
+Text GLabel 4650 3200 2    50   Input ~ 0
+COL1
+Wire Wire Line
+	2000 2150 2000 2100
+Wire Wire Line
+	1500 2150 1575 2150
+Wire Wire Line
+	1500 1625 1500 2150
+Wire Wire Line
+	5050 1625 1500 1625
+Wire Wire Line
+	5050 2400 5050 1625
+Wire Wire Line
+	4650 2400 5050 2400
+Wire Wire Line
+	2150 2400 3250 2400
+Wire Wire Line
+	2150 2100 2150 2400
+Wire Wire Line
+	2050 2500 2050 2375
+Wire Wire Line
+	2100 2600 2100 2100
+Text GLabel 2050 2500 0    50   Input ~ 0
+SDA2
+Text GLabel 3250 2500 0    50   Input ~ 0
+SDA2
+Text GLabel 4650 2800 2    50   Input ~ 0
+row2
+Text GLabel 4650 2700 2    50   Input ~ 0
+row3
+Wire Wire Line
+	4650 2300 5100 2300
+Text GLabel 4650 2900 2    50   Input ~ 0
+row1
+Text GLabel 4650 2500 2    50   Input ~ 0
+row5
+Text GLabel 4650 2600 2    50   Input ~ 0
+row4
+NoConn ~ 4650 2100
+Wire Wire Line
+	4300 8475 4350 8475
+Wire Wire Line
+	3800 8475 3850 8475
+Wire Wire Line
+	3300 8475 3350 8475
+Wire Wire Line
+	3800 7675 3850 7675
+Wire Wire Line
+	4300 6125 4350 6125
+Wire Wire Line
+	3800 6125 3850 6125
+Wire Wire Line
+	3300 6125 3350 6125
+Wire Wire Line
+	4300 5350 4350 5350
+Wire Wire Line
+	3800 5350 3850 5350
+Wire Wire Line
+	3300 5350 3350 5350
+Wire Wire Line
+	4300 4575 4350 4575
+Wire Wire Line
+	3800 4575 3850 4575
+Wire Wire Line
+	3300 4575 3350 4575
+Text GLabel 4700 8875 2    50   Input ~ 0
+row5
+Text GLabel 4700 8075 2    50   Input ~ 0
+row4
+Text GLabel 4700 6525 2    50   Input ~ 0
+row3
+Text GLabel 4700 5750 2    50   Input ~ 0
+row2
+Text GLabel 4700 4975 2    50   Input ~ 0
+row1
+Text GLabel 3900 4075 0    50   Input ~ 0
+COL3
+Text GLabel 3400 4075 0    50   Input ~ 0
+COL2
+Text GLabel 2900 4075 0    50   Input ~ 0
+COL1
+Connection ~ 3900 5350
+Wire Wire Line
+	3900 6125 3900 5350
+Wire Wire Line
+	3900 5350 3900 4575
+Wire Wire Line
+	4700 5750 4350 5750
+Connection ~ 4350 5750
+Connection ~ 3400 5350
+Wire Wire Line
+	3400 4575 3400 5350
+Wire Wire Line
+	3400 5350 3400 6125
+Wire Wire Line
+	3850 5750 4350 5750
+Connection ~ 3850 5750
+Connection ~ 2900 5350
+Wire Wire Line
+	2900 5350 2900 4575
+Wire Wire Line
+	2900 6125 2900 5350
+Wire Wire Line
+	3350 5750 3850 5750
+Wire Wire Line
+	3400 4075 3400 4575
+Connection ~ 3400 4575
+Connection ~ 3850 4975
+Wire Wire Line
+	3850 4975 3350 4975
+Wire Wire Line
+	4350 4975 3850 4975
+Wire Wire Line
+	2900 4575 2900 4075
+Connection ~ 2900 4575
+Wire Wire Line
+	4350 8875 4700 8875
+Connection ~ 4350 8875
+Wire Wire Line
+	3850 8875 4350 8875
+Connection ~ 3850 8875
+Wire Wire Line
+	3350 8875 3850 8875
+Connection ~ 3900 6125
+Wire Wire Line
+	4350 6525 4700 6525
+Connection ~ 4350 6525
+Connection ~ 3400 6125
+Wire Wire Line
+	3850 6525 4350 6525
+Connection ~ 3850 6525
+Connection ~ 2900 6125
+Wire Wire Line
+	3850 6525 3350 6525
+Wire Wire Line
+	3900 4075 3900 4575
+Connection ~ 3900 4575
+Wire Wire Line
+	4700 4975 4350 4975
+Connection ~ 4350 4975
+$Comp
+L ProMicro:MJ-4PP-9 J2
+U 1 1 600172DF
+P 2075 1900
+F 0 "J2" V 2153 1769 50  0000 R CNN
+F 1 "MJ-4PP-9" V 2062 1769 50  0000 R CNN
+F 2 "foostan:MJ-4PP-9" H 2350 2075 50  0001 C CNN
+F 3 "~" H 2350 2075 50  0001 C CNN
+	1    2075 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L ProMicro:SW_PUSH SW_RST2
+U 1 1 5FE3BB62
+P 5400 2300
+F 0 "SW_RST2" H 5400 2555 50  0000 C CNN
+F 1 "SW_PUSH" H 5400 2464 50  0000 C CNN
+F 2 "foostan:ResetSW" H 5400 2300 50  0000 C CNN
+F 3 "" H 5400 2300 50  0000 C CNN
+	1    5400 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW10
+U 1 1 5C9F8682
+P 3600 7675
+F 0 "SW10" H 3600 7960 50  0000 C CNN
+F 1 "SW_Push" H 3600 7869 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 3600 7875 50  0001 C CNN
+F 3 "" H 3600 7875 50  0001 C CNN
+	1    3600 7675
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D10
+U 1 1 5C9F867C
+P 3850 7875
+F 0 "D10" H 3850 8140 50  0000 C CNN
+F 1 "DIODE" H 3850 8049 50  0000 C CNN
+F 2 "foostan:D3_TH" H 3850 7875 50  0001 C CNN
+F 3 "~" H 3850 7875 50  0001 C CNN
+	1    3850 7875
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW6
+U 1 1 5C9F85C2
+P 4100 5350
+F 0 "SW6" H 4100 5635 50  0000 C CNN
+F 1 "SW_Push" H 4100 5544 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 4100 5550 50  0001 C CNN
+F 3 "" H 4100 5550 50  0001 C CNN
+	1    4100 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D6
+U 1 1 5C9F85BC
+P 4350 5550
+F 0 "D6" H 4350 5815 50  0000 C CNN
+F 1 "DIODE" H 4350 5724 50  0000 C CNN
+F 2 "foostan:D3_TH" H 4350 5550 50  0001 C CNN
+F 3 "~" H 4350 5550 50  0001 C CNN
+	1    4350 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW5
+U 1 1 5C9F85B6
+P 3600 5350
+F 0 "SW5" H 3600 5635 50  0000 C CNN
+F 1 "SW_Push" H 3600 5544 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 3600 5550 50  0001 C CNN
+F 3 "" H 3600 5550 50  0001 C CNN
+	1    3600 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D5
+U 1 1 5C9F85B0
+P 3850 5550
+F 0 "D5" H 3850 5815 50  0000 C CNN
+F 1 "DIODE" H 3850 5724 50  0000 C CNN
+F 2 "foostan:D3_TH" H 3850 5550 50  0001 C CNN
+F 3 "~" H 3850 5550 50  0001 C CNN
+	1    3850 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW4
+U 1 1 5C9F85AA
+P 3100 5350
+F 0 "SW4" H 3100 5635 50  0000 C CNN
+F 1 "SW_Push" H 3100 5544 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 3100 5550 50  0001 C CNN
+F 3 "" H 3100 5550 50  0001 C CNN
+	1    3100 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D4
+U 1 1 5C9F85A4
+P 3350 5550
+F 0 "D4" H 3350 5815 50  0000 C CNN
+F 1 "DIODE" H 3350 5724 50  0000 C CNN
+F 2 "foostan:D3_TH" H 3350 5550 50  0001 C CNN
+F 3 "~" H 3350 5550 50  0001 C CNN
+	1    3350 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW2
+U 1 1 5C9F859E
+P 3600 4575
+F 0 "SW2" H 3600 4860 50  0000 C CNN
+F 1 "SW_Push" H 3600 4769 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 3600 4775 50  0001 C CNN
+F 3 "" H 3600 4775 50  0001 C CNN
+	1    3600 4575
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D2
+U 1 1 5C9F8598
+P 3850 4775
+F 0 "D2" H 3850 5040 50  0000 C CNN
+F 1 "DIODE" H 3850 4949 50  0000 C CNN
+F 2 "foostan:D3_TH" H 3850 4775 50  0001 C CNN
+F 3 "~" H 3850 4775 50  0001 C CNN
+	1    3850 4775
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5C9F8592
+P 3100 4575
+F 0 "SW1" H 3100 4860 50  0000 C CNN
+F 1 "SW_Push" H 3100 4769 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 3100 4775 50  0001 C CNN
+F 3 "" H 3100 4775 50  0001 C CNN
+	1    3100 4575
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D1
+U 1 1 5C9F858C
+P 3350 4775
+F 0 "D1" H 3350 5040 50  0000 C CNN
+F 1 "DIODE" H 3350 4949 50  0000 C CNN
+F 2 "foostan:D3_TH" H 3350 4775 50  0001 C CNN
+F 3 "~" H 3350 4775 50  0001 C CNN
+	1    3350 4775
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW13
+U 1 1 5C9F6596
+P 4100 8475
+F 0 "SW13" H 4100 8760 50  0000 C CNN
+F 1 "SW_Push" H 4100 8669 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 4100 8675 50  0001 C CNN
+F 3 "" H 4100 8675 50  0001 C CNN
+	1    4100 8475
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D13
+U 1 1 5C9F6590
+P 4350 8675
+F 0 "D13" H 4350 8940 50  0000 C CNN
+F 1 "DIODE" H 4350 8849 50  0000 C CNN
+F 2 "foostan:D3_TH" H 4350 8675 50  0001 C CNN
+F 3 "~" H 4350 8675 50  0001 C CNN
+	1    4350 8675
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW12
+U 1 1 5C9F658A
+P 3600 8475
+F 0 "SW12" H 3600 8760 50  0000 C CNN
+F 1 "SW_Push" H 3600 8669 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 3600 8675 50  0001 C CNN
+F 3 "" H 3600 8675 50  0001 C CNN
+	1    3600 8475
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D12
+U 1 1 5C9F6584
+P 3850 8675
+F 0 "D12" H 3850 8940 50  0000 C CNN
+F 1 "DIODE" H 3850 8849 50  0000 C CNN
+F 2 "foostan:D3_TH" H 3850 8675 50  0001 C CNN
+F 3 "~" H 3850 8675 50  0001 C CNN
+	1    3850 8675
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW11
+U 1 1 5C9F657E
+P 3100 8475
+F 0 "SW11" H 3100 8760 50  0000 C CNN
+F 1 "SW_Push" H 3100 8669 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 3100 8675 50  0001 C CNN
+F 3 "" H 3100 8675 50  0001 C CNN
+	1    3100 8475
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D11
+U 1 1 5C9F6578
+P 3350 8675
+F 0 "D11" H 3350 8940 50  0000 C CNN
+F 1 "DIODE" H 3350 8849 50  0000 C CNN
+F 2 "foostan:D3_TH" H 3350 8675 50  0001 C CNN
+F 3 "~" H 3350 8675 50  0001 C CNN
+	1    3350 8675
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW9
+U 1 1 5C9F5962
+P 4100 6125
+F 0 "SW9" H 4100 6410 50  0000 C CNN
+F 1 "SW_Push" H 4100 6319 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 4100 6325 50  0001 C CNN
+F 3 "" H 4100 6325 50  0001 C CNN
+	1    4100 6125
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D9
+U 1 1 5C9F595C
+P 4350 6325
+F 0 "D9" H 4350 6590 50  0000 C CNN
+F 1 "DIODE" H 4350 6499 50  0000 C CNN
+F 2 "foostan:D3_TH" H 4350 6325 50  0001 C CNN
+F 3 "~" H 4350 6325 50  0001 C CNN
+	1    4350 6325
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW8
+U 1 1 5C9F5956
+P 3600 6125
+F 0 "SW8" H 3600 6410 50  0000 C CNN
+F 1 "SW_Push" H 3600 6319 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 3600 6325 50  0001 C CNN
+F 3 "" H 3600 6325 50  0001 C CNN
+	1    3600 6125
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D8
+U 1 1 5C9F5950
+P 3850 6325
+F 0 "D8" H 3850 6590 50  0000 C CNN
+F 1 "DIODE" H 3850 6499 50  0000 C CNN
+F 2 "foostan:D3_TH" H 3850 6325 50  0001 C CNN
+F 3 "~" H 3850 6325 50  0001 C CNN
+	1    3850 6325
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW7
+U 1 1 5C9F594A
+P 3100 6125
+F 0 "SW7" H 3100 6410 50  0000 C CNN
+F 1 "SW_Push" H 3100 6319 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 3100 6325 50  0001 C CNN
+F 3 "" H 3100 6325 50  0001 C CNN
+	1    3100 6125
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D7
+U 1 1 5C9F5944
+P 3350 6325
+F 0 "D7" H 3350 6590 50  0000 C CNN
+F 1 "DIODE" H 3350 6499 50  0000 C CNN
+F 2 "foostan:D3_TH" H 3350 6325 50  0001 C CNN
+F 3 "~" H 3350 6325 50  0001 C CNN
+	1    3350 6325
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW3
+U 1 1 5C9F58D2
+P 4100 4575
+F 0 "SW3" H 4100 4860 50  0000 C CNN
+F 1 "SW_Push" H 4100 4769 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate" H 4100 4775 50  0001 C CNN
+F 3 "" H 4100 4775 50  0001 C CNN
+	1    4100 4575
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D3
+U 1 1 5C9F58CC
+P 4350 4775
+F 0 "D3" H 4350 5040 50  0000 C CNN
+F 1 "DIODE" H 4350 4949 50  0000 C CNN
+F 2 "foostan:D3_TH" H 4350 4775 50  0001 C CNN
+F 3 "~" H 4350 4775 50  0001 C CNN
+	1    4350 4775
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5FCCAD25
+P 2375 2750
+F 0 "R1" H 2445 2796 50  0000 L CNN
+F 1 "4.7k" H 2445 2705 50  0000 L CNN
+F 2 "foostan:R" V 2305 2750 50  0001 C CNN
+F 3 "~" H 2375 2750 50  0001 C CNN
+	1    2375 2750
+	1    0    0    -1  
+$EndComp
+Connection ~ 2375 2600
+Wire Wire Line
+	2375 2600 2100 2600
+$Comp
+L Device:R R2
+U 1 1 5FCF4CB1
+P 1900 2375
+F 0 "R2" V 1693 2375 50  0000 C CNN
+F 1 "4.7k" V 1784 2375 50  0000 C CNN
+F 2 "foostan:R" V 1830 2375 50  0001 C CNN
+F 3 "~" H 1900 2375 50  0001 C CNN
+	1    1900 2375
+	0    1    1    0   
+$EndComp
+Connection ~ 2050 2375
+Wire Wire Line
+	2050 2375 2050 2100
+Wire Wire Line
+	1750 2375 1650 2375
+Wire Wire Line
+	1650 2375 1650 2150
+Connection ~ 1650 2150
+Wire Wire Line
+	1650 2150 2000 2150
+Wire Wire Line
+	2375 2900 1575 2900
+Wire Wire Line
+	1575 2900 1575 2150
+Connection ~ 1575 2150
+Wire Wire Line
+	1575 2150 1650 2150
+Wire Wire Line
+	2375 2600 3250 2600
+Wire Wire Line
+	3250 2200 3125 2200
+Wire Wire Line
+	3125 2200 3125 2300
+Wire Wire Line
+	3125 2300 3250 2300
+$Comp
+L ProMicro:ProMicro U1
+U 1 1 61BD4861
+P 3950 2650
+F 0 "U1" H 3950 3487 60  0000 C CNN
+F 1 "ProMicro" H 3950 3381 60  0000 C CNN
+F 2 "foostan:ProMicro_v3.5" H 4050 1600 60  0000 C CNN
+F 3 "" H 4050 1600 60  0000 C CNN
+	1    3950 2650
+	1    0    0    -1  
+$EndComp
+Text GLabel 4650 3100 2    50   Input ~ 0
+COL2
+Text GLabel 4650 3000 2    50   Input ~ 0
+COL3
+NoConn ~ 3250 2700
+NoConn ~ 3250 2800
+NoConn ~ 3250 2900
+NoConn ~ 3250 3000
+NoConn ~ 3250 3100
+NoConn ~ 3250 3200
+Wire Wire Line
+	2900 6125 2900 8475
+Wire Wire Line
+	3900 6125 3900 8475
+Wire Wire Line
+	3850 8075 4700 8075
+$Comp
+L a_gammy:MJ-4PP-9 J1
+U 1 1 600D2C33
+P 7825 2100
+F 0 "J1" V 7810 2239 50  0000 L CNN
+F 1 "MJ-4PP-9" V 7901 2239 50  0000 L CNN
+F 2 "foostan:MJ-4PP-9" H 8100 2275 50  0001 C CNN
+F 3 "~" H 8100 2275 50  0001 C CNN
+	1    7825 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7900 2300 7900 2950
+Wire Wire Line
+	7900 2950 6950 2950
+Wire Wire Line
+	7900 2950 7900 3175
+Wire Wire Line
+	7900 3175 8750 3175
+Connection ~ 7900 2950
+Wire Wire Line
+	7750 2300 7750 2700
+Wire Wire Line
+	7750 2700 8725 2700
+Wire Wire Line
+	7800 2300 7800 2850
+Wire Wire Line
+	7800 2850 8225 2850
+Wire Wire Line
+	8225 2850 8225 2950
+Wire Wire Line
+	8225 2950 8750 2950
+$Comp
+L Mechanical:MountingHole_Pad H0
+U 1 1 600D627B
+P 6825 2025
+F 0 "H0" V 7062 2028 50  0000 C CNN
+F 1 "MIC-Left" V 6971 2028 50  0000 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_ISO14580_Pad" H 6825 2025 50  0001 C CNN
+F 3 "~" H 6825 2025 50  0001 C CNN
+	1    6825 2025
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7850 2300 7850 2475
+Wire Wire Line
+	7850 2475 7300 2475
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 600D67CB
+P 6850 2950
+F 0 "H2" V 7087 2953 50  0000 C CNN
+F 1 "GND" V 6996 2953 50  0000 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_ISO14580_Pad" H 6850 2950 50  0001 C CNN
+F 3 "~" H 6850 2950 50  0001 C CNN
+	1    6850 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 600D6C01
+P 8825 2700
+F 0 "H3" V 8779 2850 50  0000 L CNN
+F 1 "Left" V 8870 2850 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_ISO14580_Pad" H 8825 2700 50  0001 C CNN
+F 3 "~" H 8825 2700 50  0001 C CNN
+	1    8825 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 600D7412
+P 8850 2950
+F 0 "H4" V 8804 3100 50  0000 L CNN
+F 1 "Right" V 8895 3100 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_ISO14580_Pad" H 8850 2950 50  0001 C CNN
+F 3 "~" H 8850 2950 50  0001 C CNN
+	1    8850 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H5
+U 1 1 600D78E7
+P 8850 3175
+F 0 "H5" V 8804 3325 50  0000 L CNN
+F 1 "GND" V 8895 3325 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_ISO14580_Pad" H 8850 3175 50  0001 C CNN
+F 3 "~" H 8850 3175 50  0001 C CNN
+	1    8850 3175
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 600D76AD
+P 6850 2475
+F 0 "H1" V 7087 2478 50  0000 C CNN
+F 1 "MIC-Right" V 6996 2478 50  0000 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_ISO14580_Pad" H 6850 2475 50  0001 C CNN
+F 3 "~" H 6850 2475 50  0001 C CNN
+	1    6850 2475
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6925 2025 7300 2025
+Wire Wire Line
+	7300 2025 7300 2475
+Connection ~ 7300 2475
+Wire Wire Line
+	7300 2475 6950 2475
+$Comp
+L a_gammy:MJ-4PP-9 J3
+U 1 1 61CA0CA6
+P 7850 3875
+F 0 "J3" V 7835 4014 50  0000 L CNN
+F 1 "MJ-4PP-9" V 7926 4014 50  0000 L CNN
+F 2 "foostan:MJ-4PP-9" H 8125 4050 50  0001 C CNN
+F 3 "~" H 8125 4050 50  0001 C CNN
+	1    7850 3875
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7925 4075 7925 4725
+Wire Wire Line
+	7925 4725 6975 4725
+Wire Wire Line
+	7925 4725 7925 4950
+Wire Wire Line
+	7925 4950 8775 4950
+Connection ~ 7925 4725
+Wire Wire Line
+	7775 4075 7775 4475
+Wire Wire Line
+	7775 4475 8750 4475
+Wire Wire Line
+	7825 4075 7825 4625
+Wire Wire Line
+	7825 4625 8250 4625
+Wire Wire Line
+	8250 4625 8250 4725
+Wire Wire Line
+	8250 4725 8775 4725
+$Comp
+L Mechanical:MountingHole_Pad H10
+U 1 1 61CA0CB7
+P 6850 3800
+F 0 "H10" V 7087 3803 50  0000 C CNN
+F 1 "MIC-Left" V 6996 3803 50  0000 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_ISO14580_Pad" H 6850 3800 50  0001 C CNN
+F 3 "~" H 6850 3800 50  0001 C CNN
+	1    6850 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7875 4075 7875 4250
+Wire Wire Line
+	7875 4250 7325 4250
+$Comp
+L Mechanical:MountingHole_Pad H12
+U 1 1 61CA0CBF
+P 6875 4725
+F 0 "H12" V 7112 4728 50  0000 C CNN
+F 1 "GND" V 7021 4728 50  0000 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_ISO14580_Pad" H 6875 4725 50  0001 C CNN
+F 3 "~" H 6875 4725 50  0001 C CNN
+	1    6875 4725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H13
+U 1 1 61CA0CC5
+P 8850 4475
+F 0 "H13" V 8804 4625 50  0000 L CNN
+F 1 "Left" V 8895 4625 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_ISO14580_Pad" H 8850 4475 50  0001 C CNN
+F 3 "~" H 8850 4475 50  0001 C CNN
+	1    8850 4475
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H14
+U 1 1 61CA0CCB
+P 8875 4725
+F 0 "H14" V 8829 4875 50  0000 L CNN
+F 1 "Right" V 8920 4875 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_ISO14580_Pad" H 8875 4725 50  0001 C CNN
+F 3 "~" H 8875 4725 50  0001 C CNN
+	1    8875 4725
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H15
+U 1 1 61CA0CD1
+P 8875 4950
+F 0 "H15" V 8829 5100 50  0000 L CNN
+F 1 "GND" V 8920 5100 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_ISO14580_Pad" H 8875 4950 50  0001 C CNN
+F 3 "~" H 8875 4950 50  0001 C CNN
+	1    8875 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H11
+U 1 1 61CA0CD7
+P 6875 4250
+F 0 "H11" V 7112 4253 50  0000 C CNN
+F 1 "MIC-Right" V 7021 4253 50  0000 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_ISO14580_Pad" H 6875 4250 50  0001 C CNN
+F 3 "~" H 6875 4250 50  0001 C CNN
+	1    6875 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6950 3800 7325 3800
+Wire Wire Line
+	7325 3800 7325 4250
+Connection ~ 7325 4250
+Wire Wire Line
+	7325 4250 6975 4250
+$EndSCHEMATC
